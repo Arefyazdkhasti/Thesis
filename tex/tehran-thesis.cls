@@ -16,7 +16,6 @@
 \ProcessOptions
 \LoadClass[a4paper,12pt]{book}
 \def\university#1{\gdef\@university{#1}}
-\def\college#1{\gdef\@college{#1}}
 \def\faculty#1{\gdef\@faculty{#1}}
 \def\department#1{\gdef\@department{#1}}
 \def\degree#1{\gdef\@degree{#1}}
@@ -43,7 +42,6 @@
 \def\keywords#1{\gdef\@keywords{#1}}
 \long\def\fa-abstract#1{\gdef\@fa-abstract{#1}}
 \def\subject#1{\gdef\@subject{#1}}
-\def\field#1{\gdef\@field{#1}}
 \def\projectLabel#1{\gdef\@projectLabel{#1}}
 \def\studentID#1{\gdef\@studentID{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -51,12 +49,10 @@
 \def\latinauthor#1{\gdef\@latinauthor{#1}}
 \def\latindegree#1{\gdef\@latindegree{#1}}
 \def\latinuniversity#1{\gdef\@latinuniversity{#1}}
-\def\latincollege#1{\gdef\@latincollege{#1}}
 \def\latinfaculty#1{\gdef\@latinfaculty{#1}}
 \def\latindepartment#1{\gdef\@latindepartment{#1}}
 \def\latinthesisdate#1{\gdef\@latinthesisdate{#1}}
 \def\latinsubject#1{\gdef\@latinsubject{#1}}
-\def\latinfield#1{\gdef\@latinfield{#1}}
 \def\firstlatinsupervisor#1{\gdef\@firstlatinsupervisor{#1}}
 \def\secondlatinsupervisor#1{\gdef\@secondlatinsupervisor{#1}}
 \def\firstlatinadvisor#1{\gdef\@firstlatinadvisor{#1}}
@@ -100,94 +96,8 @@
 \degree{دکتری}
 \fi\fi
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% جلد زرکوب به فارسی (بدون اساتید مشاور)
-\newcommand{\coverPage}{\begin{titlepage}
-%\topmargin=-30pt
-\vspace{-10mm}
-% دستورات دوآرمه
-\begin{latin}
-\hskip-1cm
-\makebox[\textwidth+2cm][c]{
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{eng-logo}
-\end{minipage}
-\begin{minipage}{\textwidth - 8cm}
-	\begin{center}
-	\begin{persian}
-		\begin{onehalfspacing}
-		{\normalsize \bf \@university \\}
-		{\normalsize \bf \@college \\}
-		{\large\bfseries\@faculty \\}
-		{\large\bfseries\@department}
-		\end{onehalfspacing}
-	\end{persian}
-	\end{center}
-\end{minipage}
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{logo}
-\end{minipage}
-}
-\end{latin}
-% دستورات تک‌آرمه
-%\centerline{{\includegraphics[width=5cm]{logo}}}
-%\centerline{\bf \@university}
-%\centerline{\large\bfseries\@faculty}
-% بعد از آرم‌ها
-\centering
-\vskip 1.5cm
-{\huge\titlefont\bfseries \@title}\par
-\vskip 5mm
-\if@bscthesis 
-	{\large\bfseries{پروژهٔ کارشناسی \@subject}
-	\ifx\@field\undefined%
-		\relax
-	\else
-		گرایش \@field
-	\fi
-	}
-\else
-	{\large\bfseries \@projectLabel\ \writtenfor
-	\@degree{} 
-	}
-	{\large\bfseries{در رشتهٔ \@subject}}
-	\vskip .2cm
-	\centerline{\large \bfseries%
-		گرایش \@field}
-\fi	
-\vskip 1cm
-\par
-{\Large\bfseries{\@name\ \ \@surname}}
-\par
-\vskip 1cm
-\large
-{
-\ifx\@firstsupervisor\undefined%
-	\ifx\@secondsupervisor\undefined%
-	\else
-	\fi
-\else
-\ifx\@secondsupervisor\undefined%
-استاد راهنما
-{\Large\bfseries\par
-\@firstsupervisor}
-\else
-\large
-اساتید راهنما
-\par
-{\Large\bfseries \@firstsupervisor{} و \@secondsupervisor}
-\fi\fi}
 
 
-\par
-\vskip 6mm
-%\vfill
-{\large \@thesisdate}
-%\vfill
-\end{titlepage}%
-} % end of coverPage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\besmPage}{
 %% بسم الله الرحمن الرحیم
@@ -203,59 +113,17 @@
 \newcommand{\titlePage}{\begin{titlepage}
 %\topmargin=-30pt
 \vspace{-10mm}
-% دستورات دوآرمه
-\begin{latin}
-\hskip-1cm
-\makebox[\textwidth+2cm][c]{
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{eng-logo}
-\end{minipage}
-\begin{minipage}{\textwidth - 8cm}
-	\begin{center}
-	\begin{persian}
-		\begin{onehalfspacing}
-		{\normalsize \bf \@university \\}
-		{\normalsize \bf \@college \\}
-		{\large\bfseries\@faculty \\}
-		{\large\bfseries\@department}
-		\end{onehalfspacing}
-	\end{persian}
-	\end{center}
-\end{minipage}
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{logo}
-\end{minipage}
-}
-\end{latin}
-% دستورات تک‌آرمه
-%\centerline{{\includegraphics[width=5cm]{logo}}}
-%\centerline{\bf \@university}
-%\centerline{\large\bfseries\@faculty}
-% بعد از آرم‌ها
+
+% آرم
+\centerline{{\includegraphics[width=5cm]{logo}}}
+\centerline{\bf \@university}
+\centerline{\large\bfseries\@faculty}
+% بعد از آرم‌
 \centering
 \vskip 1.5cm
 {\huge\titlefont\bfseries \@title}\par
 \vskip 5mm
-\if@bscthesis 
-	{\large\bfseries{پروژهٔ کارشناسی \@subject}
-	\ifx\@field\undefined%
-		\relax
-	\else
-		گرایش \@field
-	\fi
-	}
-\else
-	{\large\bfseries \@projectLabel{} \writtenfor
-	\@degree{} 
-	}
-	{\large\bfseries{در رشتهٔ \@subject}}
-	\vskip .2cm
-	\centerline{\large \bfseries%
-		گرایش \@field}
-\fi	
-\vskip 1cm
+
 \par
 {\Large\bfseries{\@name\ \ \@surname}}
 \par
@@ -263,38 +131,15 @@
 \large
 {
 \ifx\@firstsupervisor\undefined%
-	\ifx\@secondsupervisor\undefined%
-	\else
-	\fi
+	
+
 \else
-\ifx\@secondsupervisor\undefined%
+\large
 استاد راهنما
-{\Large\bfseries\par
-\@firstsupervisor}
-\else
-\large
-اساتید راهنما
 \par
-{\Large\bfseries \@firstsupervisor{} و \@secondsupervisor}
-\fi\fi}
-\par\large
-{\ifx\@firstadvisor\undefined%
-\ifx\@secondadvisor\undefined%
-\else\fi
-\else
-\ifx\@secondadvisor\undefined%
-استاد مشاور
-{\Large\bfseries\par
-\@firstadvisor}
-\else
-
-\large
-استادان مشاور
-\par
-{\Large\bfseries\@firstadvisor{} و \@secondadvisor}
+{\Large\bfseries \@firstsupervisor}
 \fi\fi}
 
-\par
 \vskip 6mm
 %\vfill
 {\large \@thesisdate}
@@ -321,24 +166,11 @@
 %\setcounter{page}{1}
 \thispagestyle{empty}
 
-\begin{minipage}{4cm}
-	\raggedleft
-	\includegraphics[height=3cm]{logo}
-\end{minipage}
-\begin{minipage}{\textwidth - 8cm}
-	\begin{center}
-		\begin{onehalfspacing}
-		{\normalsize \bf \@university \\}
-		{\normalsize \bf \@college \\}
-		{\large\bfseries\@faculty \\}
-		%{\large\bfseries\@department}
-		\end{onehalfspacing}
-	\end{center}
-\end{minipage}
-\begin{minipage}{4cm}
-	\raggedright
-	\includegraphics[height=3cm]{eng-logo}
-\end{minipage}
+\centerline{{\includegraphics[width=5cm]{logo}}}
+\centerline{\bf \@university}
+\centerline{\large\bfseries\@faculty}
+
+
 
 \begin{center}
 {\Large\bfseries
@@ -346,79 +178,35 @@
 }
 \end{center}
 %\vspace{.5cm}
-هیأت داوران \@projectLabel{}ٔ \@degree{} آقای~/~خانم \@name{} \@surname{} به شمارهٔ دانشجویی \@studentID{} در رشتهٔ \@subject{}~-~گرایش \@field{} را در تاریخ ............ با عنوان «\@title{}»\\
+هیأت داوران \@projectLabel{}ٔ \@degree{} آقای~/~خانم \@name{} \@surname{} به شمارهٔ دانشجویی \@studentID{} در رشتهٔ \@subject{}~-~ را در تاریخ ............ با عنوان  «\@title{}» و نمره نهایی زیر ارزیابی کرد \\
+
 \makebox[\textwidth][l]{
 \parbox{0.7\textwidth}{
 \makebox[2cm]{}\hspace{1ex}\makebox[2cm]{به عدد}\makebox[5cm]{به حروف}\\
 \makebox[2cm][l]{با نمرهٔ نهایی}\hspace{1ex}\framebox[2cm]{\strut}\framebox[5cm]{\strut}
 \\
 \\
-\makebox[2cm][l]{و درجهٔ}\hspace{1ex}\framebox[3cm]{\strut}\hspace{1ex}
-ارزیابی کرد.
+
+
 }
 }
-
-\newcounter{davaranCounter}
-\begin{table}[h]
-\small
-\begin{onehalfspacing}
-\begin{tabular}{| >{\centering\arraybackslash}m{0.03\textwidth} | >{\centering\arraybackslash}m{.17\textwidth} | >{\centering\arraybackslash}m{.17\textwidth} |>{\centering\arraybackslash}m{.1\textwidth}|>{\centering\arraybackslash}m{.2\textwidth}|>{\centering\arraybackslash}m{.15\textwidth}|}
-\hline
-{\bfseries\begin{sideways}ردیف\end{sideways}} & {\bfseries مشخصات هیأت داوران} & {\bfseries نام و نام خانوادگی} & {\bfseries مرتبهٔ دانشگاهی} &	{\bfseries دانشگاه یا مؤسسه} & {\bfseries امضا} \\
-\hline
-\ifx\@firstsupervisor\undefined
-\else \stepcounter{davaranCounter}
-\arabic{davaranCounter} &	استاد راهنما & \@firstsupervisor & \@firstsupervisorrank & دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
-\fi
-\ifx\@secondsupervisor\undefined%
-\else \stepcounter{davaranCounter}
-\arabic{davaranCounter} &	استاد راهنما & \@secondsupervisor & \@secondsupervisorrank & دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
-\fi
-\hline
-\ifx\@firstadvisor\undefined%
-\else \stepcounter{davaranCounter}
-\arabic{davaranCounter} & استاد مشاور & \@firstadvisor & \@firstadvisorrank & دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
-\fi
-\ifx\@secondadvisor\undefined%
-\else \stepcounter{davaranCounter}
-\arabic{davaranCounter} & استاد مشاور & \@secondadvisor & \@secondadvisorrank & دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
-\fi
-\hline
-\ifx\@internaljudge\undefined%
-\else \stepcounter{davaranCounter}
-\arabic{davaranCounter} & استاد داور داخلی & \@internaljudge & \@internaljudgerank & دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
-\hline
-\fi
-\ifx\@externaljudge\undefined%
-\else \stepcounter{davaranCounter}
-\arabic{davaranCounter} & استاد مدعو & \@externaljudge & \@externaljudgerank & \@externaljudgeuniversity & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
-\hline
-\fi
-\ifx\@graduatedeputy\undefined%
-\else \stepcounter{davaranCounter}
-\arabic{davaranCounter} & نمایندهٔ تحصیلات تکمیلی دانشکده & \@graduatedeputy & \@graduatedeputyrank &  دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
-\hline
-\fi
-\end{tabular}
-\end{onehalfspacing}
-\end{table}
-
 \begin{center}
 \noindent
 	\begin{minipage}{0.45\textwidth}
 		\begin{center}
-			نام و نام خانوادگی معاون تحصیلات تکمیلی و پژوهشی دانشکده~/~گروه:\\
+			نام و نام خانوادگی استاد راهنما\\
 			تاریخ و امضا:
 		\end{center}
 	\end{minipage}
 	\hspace{0.08\textwidth}
 	\begin{minipage}{0.45\textwidth}
 		\begin{center}
-			نام و نام خانوادگی معاون آموزشی و تحصیلات تکمیلی پردیس دانشکده‌های فنی:\\
+			نام و نام خانوادگی استاد داور:\\
 			تاریخ و امضا:
 		\end{center}
 	\end{minipage}
 \end{center}
+
 } % End of davaranPage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% تأییدیه‌ی صحت و اصالت نتایج
@@ -467,7 +255,7 @@ inner xsep=-1.3cm,inner ysep=0.4cm]
 
 \textbf{کلیهٔ حقوق مادی  و معنوی این اثر}
  
-\textbf{متعلّق به دانشگاه تهران است.}
+\textbf{متعلّق به دانشگاه اصفهان است.}
 
 \end{center}
 \end{persian}
@@ -562,15 +350,10 @@ inner xsep=-1.3cm,inner ysep=0.4cm]
 \begin{latin}
 \hskip-1cm
 \makebox[\textwidth+2cm][c]{
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{eng-logo-en}
-\end{minipage}
 \begin{minipage}{\linewidth - 8cm}
 	\begin{center}
 		\begin{onehalfspacing}
 		{\normalsize \bf \@latinuniversity \\}
-		{\normalsize \bf \@latincollege \\}
 		{\large\bfseries\@latinfaculty \\}
 		{\large\bfseries\@latindepartment \\}
 		\end{onehalfspacing}
@@ -608,7 +391,6 @@ inner xsep=-1.3cm,inner ysep=0.4cm]
 	\else
 	 Doctor of Philosophy
 	\fi
-	\\in  \@latinsubject{} - \@latinfield{}
 	%\baselineskip=.750cm
 	%\addtolength{\baselineskip}{-5mm}
 \fi

@@ -1,0 +1,80 @@
+\contentsline {paragraph}{واژگان کلیدی}{شش}{section*.2}%
+\contentsline {chapter}{فهرست تصاویر}{ث}{section*.3}%
+\contentsline {chapter}{فهرست جداول}{ج}{section*.4}%
+\contentsline {chapter}{فهرست الگوریتم‌ها}{چ}{section*.4}%
+\contentsline {chapter}{\rl {فهرست برنامه‌ها}}{ح}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}آشنایی با این راهنما}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}چگونگی استفاده از کلاس پایان‌نامه}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}این همه فایل؟!}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}از کجا شروع کنم؟}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}مطالب پایان‌نامه را چطور بنویسم؟}{4}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.1}نوشتن فصل‌ها}{4}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {1.2.3.2}مراجع}{5}{subsubsection.1.2.3.2}%
+\contentsline {subsubsection}{\numberline {1.2.3.3}واژه‌نامه فارسی به انگلیسی و برعکس}{5}{subsubsection.1.2.3.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.4}نمایه}{5}{subsubsection.1.2.3.4}%
+\contentsline {subsection}{\numberline {1.2.4}اگر سوالی داشتم، از کی بپرسم؟}{5}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}محتویات فصل اول یک پایان‌نامه}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}عنوان تحقیق}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}مسأله تحقیق}{6}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}تاریخچه‌ای از موضوع تحقیق}{7}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}تعریف موضوع تحقیق}{7}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}هدف یا هدف‌های کلی و آرمانی تحقیق}{7}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}روش انجام تحقیق}{7}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}نوآوری، اهمیت و ارزش تحقیق}{7}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}تعریف واژه‌ها (اختیاری)}{8}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}خلاصه فصل‌ها}{8}{subsection.1.3.9}%
+\contentsline {section}{\numberline {1.4}جمع‌بندی}{9}{section.1.4}%
+\contentsline {chapter}{\numberline {2}مروری بر مطالعات انجام شده}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}مقدمه}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}تعاریف، اصول و مبانی نظری}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}مروری بر ادبیات موضوع}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}نتیجه‌گیری}{11}{section.2.4}%
+\contentsline {chapter}{\numberline {3}روش تحقیق}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}مقدمه}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}محتوا (نام‌گذاری بر اساس روش تحقیق و مسأله مورد مطالعه)}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}علت انتخاب روش}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}تشریح کامل روش تحقیق}{12}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}نتایج}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}مقدمه}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}محتوا}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}اعتبارسنجی}{16}{section.4.3}%
+\contentsline {chapter}{\numberline {5}بحث و نتیجه‌گیری}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}مقدمه}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}محتوا}{18}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}جمع‌بندی}{18}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}نوآوری}{18}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}پیشنهادها}{19}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}محدودیت‌ها}{19}{subsection.5.2.4}%
+\contentsline {chapter}{مراجع}{20}{chapter*.10}%
+ \renewcommand \cftchappresnum {پیوست\nobreakspace {}}\setlength {\cftchapnumwidth }{\mylenapp }
+\contentsline {chapter}{\numberline {6}آشنایی سریع با برخی دستورات لاتک}{22}{chapter.6}%
+\contentsline {section}{\numberline {6.1}بندها و زیرنویس‌ها}{22}{section.6.1}%
+\contentsline {section}{\numberline {6.2}فرمول‌های ریاضی}{23}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}یک زیربخش}{23}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}یک زیرزیربخش}{23}{subsubsection.6.2.1.1}%
+\contentsline {section}{\numberline {6.3}نوشته‌های فارسی و انگلیسی مخلوط}{24}{section.6.3}%
+\contentsline {section}{\numberline {6.4}افزودن تصویر به نوشته}{24}{section.6.4}%
+\contentsline {section}{\numberline {6.5}محیط‌های شمارش و نکات}{25}{section.6.5}%
+\contentsline {section}{\numberline {6.6}تعریف و قضیه}{25}{section.6.6}%
+\contentsline {section}{\numberline {6.7}چگونگی نوشتن و ارجاع به مراجع}{26}{section.6.7}%
+\contentsline {chapter}{\numberline {7}‌جدول، نمودار و الگوریتم در لاتک}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}جدول}{28}{section.7.1}%
+\contentsline {section}{\numberline {7.2}معادلات ریاضی و ماتریس‌ها}{29}{section.7.2}%
+\contentsline {section}{\numberline {7.3}الگوریتم}{30}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}الگوریتم ساده با دستورهای فارسی}{30}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}الگوریتم پیچیده و تودرتو با دستورهای فارسی}{30}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}الگوریتم با دستورهای لاتین}{30}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}کد}{32}{section.7.4}%
+\contentsline {section}{\numberline {7.5}تصویر}{32}{section.7.5}%
+\contentsline {section}{\numberline {7.6}نمودار}{33}{section.7.6}%
+\contentsline {section}{\numberline {7.7}نحوه قرارگیری اشیای شناور}{33}{section.7.7}%
+\contentsline {chapter}{\numberline {8}مراجع، واژه‌نامه و حاشیه‌نویسی}{35}{chapter.8}%
+\contentsline {section}{\numberline {8.1}مراجع و نقل‌قول‌ها}{35}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1} مدیریت مراجع با \lr {Bib\LRE {\TeX }}}{36}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}سبک‌های مورد تأیید دانشگاه تهران}{37}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}سبک‌های فارسی قابل استفاده در زی‌پرشین}{38}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}ساختار فایل مراجع}{39}{subsection.8.1.4}%
+\contentsline {subsection}{\numberline {8.1.5}نحوه اجرای \lr {Bib\LRE {\TeX }}}{40}{subsection.8.1.5}%
+\contentsline {section}{\numberline {8.2}واژه‌نامه‌ها و فهرست اختصارات}{41}{section.8.2}%
+\contentsline {section}{\numberline {8.3}حاشیه‌نویسی در نسخه پیش‌نویس}{42}{section.8.3}%
