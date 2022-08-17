@@ -45,23 +45,7 @@
 \def\projectLabel#1{\gdef\@projectLabel{#1}}
 \def\studentID#1{\gdef\@studentID{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\def\latintitle#1{\gdef\@latintitle{#1}}
-\def\latinauthor#1{\gdef\@latinauthor{#1}}
-\def\latindegree#1{\gdef\@latindegree{#1}}
-\def\latinuniversity#1{\gdef\@latinuniversity{#1}}
-\def\latinfaculty#1{\gdef\@latinfaculty{#1}}
-\def\latindepartment#1{\gdef\@latindepartment{#1}}
-\def\latinthesisdate#1{\gdef\@latinthesisdate{#1}}
-\def\latinsubject#1{\gdef\@latinsubject{#1}}
-\def\firstlatinsupervisor#1{\gdef\@firstlatinsupervisor{#1}}
-\def\secondlatinsupervisor#1{\gdef\@secondlatinsupervisor{#1}}
-\def\firstlatinadvisor#1{\gdef\@firstlatinadvisor{#1}}
-\def\secondlatinadvisor#1{\gdef\@secondlatinadvisor{#1}}
-\def\latinname#1{\gdef\@latinname{#1}}
-\def\latinsurname#1{\gdef\@latinsurname{#1}}
-\def\en-abstract#1{\gdef\@en-abstract{#1}}
-\def\latinkeywords#1{\gdef\@latinkeywords{#1}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newif\if@bscthesis
 \@bscthesisfalse
 \DeclareOption{bsc}{\@bscthesistrue}
@@ -87,14 +71,8 @@
 
 \ifx\@degree\undefined%
 {
-\if@mscthesis
-\degree{کارشناسی ارشد}
-\else
 \if@bscthesis
 \degree{کارشناسی}
-\else
-\degree{دکتری}
-\fi\fi
 }
 
 
@@ -235,45 +213,7 @@
 \end{tabular}
 \end{center}
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% مجوز بهره‌برداری از پایان‌نامه
-\newcommand{\mojavezPage}
-{
-\cleardoublepage
-\thispagestyle{empty}
-\ \vfill
-\vspace{-12cm}
-\tikzstyle{tmpvip}=%
-[ultra thick,rectangle,draw=black!72,rounded corners=2mm,%
-inner xsep=-1.3cm,inner ysep=0.4cm]
-\begin{center}
-\begin{tikzpicture}
-\node[tmpvip](mainbox){%
-\begin{minipage}{0.7\textwidth}
-\begin{persian}
-\begin{center}
 
-\textbf{کلیهٔ حقوق مادی  و معنوی این اثر}
- 
-\textbf{متعلّق به دانشگاه اصفهان است.}
-
-\end{center}
-\end{persian}
-\end{minipage}};
-%\node[viptitle] at (mainbox.west){\ding{'153}};
-\end{tikzpicture}
-\end{center}
-\ \vfill
-}
-
-% \def\frame{\newpage
-% \thispagestyle{empty}
-% \begin{framed}\thispagestyle{empty}}
-% \def\endframe{\thispagestyle{empty}\end{framed}
-% \thispagestyle{empty}
-% \newpage
-% }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % بخش تقدیم
 %% پایان‌نامه خود را تقدیم کنید! %%
 \newcommand{\taghdimPage}
@@ -317,157 +257,16 @@ inner xsep=-1.3cm,inner ysep=0.4cm]
 	\@keywords
 }
 
-\def\latinabstract{
-%% Latin abstract Page
-\cleardoublepage\newpage
-\thispagestyle{empty}
-~
-\newpage
-\thispagestyle{empty}
-\section*{Abstract}
-% \addcontentsline{toc}{section}{چکیده}
-\@en-abstract
-\par
-\noindent
-\paragraph{Keywords}
-\@latinkeywords
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%% Latin Abstract and Title pages
-
-\font\supervisorfont=cmbxti10
-
-\newcommand{\latinTitlePage}{%
-%% Latin title page
-\clearpage
-\thispagestyle{empty}
-~
-\begin{titlepage}
-\vspace{-10mm}
-%% Double logo commands
-\begin{latin}
-\hskip-1cm
-\makebox[\textwidth+2cm][c]{
-\begin{minipage}{\linewidth - 8cm}
-	\begin{center}
-		\begin{onehalfspacing}
-		{\normalsize \bf \@latinuniversity \\}
-		{\large\bfseries\@latinfaculty \\}
-		{\large\bfseries\@latindepartment \\}
-		\end{onehalfspacing}
-	\end{center}
-\end{minipage}
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{logo-en}
-\end{minipage}
-}
-\end{latin}
-%% Single logo commands
-%\centerline{{\includegraphics[width=5cm]{logo-en}}}
-%\centerline{\bf \@latinuniversity}
-%\centerline{\large\bfseries\@latinfaculty}
-%% After logos
-\centering
-\vskip 1.5cm
-{%\latintitlefont 
-\Huge\latintitlefont\bfseries
-\@latintitle}
-%\baselineskip=.750cm \par
-\vskip 15mm
-{
-\large
-\if@bscthesis 
-    Bachelor of Science Thesis
-	in  \@latinsubject 
-\else
-	A Thesis submitted to the Graduate Studies Office
-    \\In partial fulfillment of the requirements for
-    \\The degree of 
-	\if@mscthesis
-	 Master of Science
-	\else
-	 Doctor of Philosophy
-	\fi
-	%\baselineskip=.750cm
-	%\addtolength{\baselineskip}{-5mm}
-\fi
-}
-\vskip 15mm
-{\bfseries\latinby}\par
-{\large %\supervisorfont
-\rm \Large\bfseries \@latinname \; \@latinsurname}\par
-
-\vskip 15mm
-
-\large
-{\ifx\@firstlatinsupervisor\undefined%
-\ifx\@secondlatinsupervisor\undefined%
-\else\fi
-\else
-\ifx\@secondlatinsupervisor\undefined%
-Supervisor:
-{\Large\bfseries\par
-\@firstlatinsupervisor}
-\else
-\large
-Supervisors:
-\par
-{\Large\bfseries \@firstlatinsupervisor{} and \@secondlatinsupervisor}
-\fi\fi}
-\par
-\large
-{\ifx\@firstlatinadvisor\undefined%
-\ifx\@secondlatinadvisor\undefined%
-\else\fi
-\else
-\ifx\@secondlatinadvisor\undefined%
-Advisor:
-{\Large\bfseries\par
-\@firstlatinadvisor}
-\else
-
-\large
-Advisors:
-\par
-{\Large\bfseries\@firstlatinadvisor{} and \@secondlatinadvisor}
-\fi\fi}
-\vskip 5mm
-
-\par
-\vskip 1cm
-
-{\@latinthesisdate}
-\par
-\vskip 1cm
-
-\par
-
-\vfill
-%
-\end{titlepage}
-\fi}
-
-\def\onvan{عنوان}
-\def\writtenfor{برای دریافت درجهٔ }
-\def\by{پژوهشگر}
-\def\latinby{By:}
-\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
-\hbox{}
-\thispagestyle{empty}
-\newpage
-\if@twocolumn\hbox{}\newpage\fi\fi\fi}
 
 \AtBeginDocument{
 \makeatletter
 % تعیین مشخصات فایل PDF
 \hypersetup{
-pdftitle={\@latintitle},
-pdfauthor={\@latinname \@latinsurname},
-pdfsubject={Thesis in \@latinsubject},
-pdfkeywords={\@latinkeywords},
+pdftitle={document},
+pdfauthor={\@name \@surname},
+pdfsubject={Thesis in \@subject},
+pdfkeywords={\@keywords},
 pdfdirection={R2L}
 }
 \makeatother
