@@ -14,14 +14,11 @@
 
 ### چگونه استفاده کنیم؟
 
-آخرین نسخهٔ منتشرشدهٔ قالب را می‌توانید از
-[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest)
-دریافت کنید.
 با دستور زیر نیز می‌توانید به آخرین نسخهٔ در حال توسعهٔ قالب دسترسی داشته باشید:
 <div dir="ltr">
 
 ```bash
-git clone https://github.com/sinamomken/tehran-thesis --single-branch
+git clone https://github.com/Mehrdadghassabi/isfahan-thesis.git
 ```
 
 </div>
