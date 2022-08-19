@@ -1,5 +1,14 @@
-# isfahan-thesis
+# tehran-thesis
 
+[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest)
+<!-- [![Travis (.org)](https://img.shields.io/travis/sinamomken/tehran-thesis.svg?style=flat-square)](https://travis-ci.org/sinamomken/tehran-thesis) -->
+
+LaTeX template for MSc/BSc/PhD theses of University of Tehran.
+<div dir="rtl">قالب لاتک پایان‌نامه دانشگاه تهران</div>
+
+<div dir="rtl">
+
+## راهنمای فارسی
 ### ویژگی‌ها
 1. منطبق با [«دستورالعمل نگارش و تدوین پایان‌نامه» دانشگاه تهران، ویرایش اول، شهریور ۱۳۹۲][egufa site].
 1. طراحی مدولار و انعطاف‌پذیر، به همراه دستورات از پیش‌تعریف‌شده برای مشخصات متغیر یک پایان‌نامهٔ دانشگاه تهران (مثل عنوان، نام دانشچو، استاد راهنما، تاریخ و غیره).
@@ -15,12 +24,13 @@
 ### چگونه استفاده کنیم؟
 
 آخرین نسخهٔ منتشرشدهٔ قالب را می‌توانید از
+[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest)
 دریافت کنید.
 با دستور زیر نیز می‌توانید به آخرین نسخهٔ در حال توسعهٔ قالب دسترسی داشته باشید:
 <div dir="ltr">
 
 ```bash
-git clone https://github.com/Mehrdadghassabi/isfahan-thesis.git --single-branch
+git clone https://github.com/sinamomken/tehran-thesis --single-branch
 ```
 
 </div>

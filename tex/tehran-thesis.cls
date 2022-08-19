@@ -1,12 +1,13 @@
 %%
-%%  This is file `tehran-thesis.cls',
-%%  It is a modification of IUST-Thesis by Mahmood Amintoosi
+%%  This is file `isfahan-thesis.cls',
+%%  It is a modification of tehran-Thesis by sina.momken
+%%  which itself is a change of IUST-thesis by Mahmood Amintoosi
 %%  which itself is a change of Tabriz_thesis by Vahid Damanafshan
 %%  which itself is a change of xepersian-thesis by Vafa Khalighi
 %%
-%%  Author: Sina Momken, sina.momken@gmail.com
-%%	Base author: Mahmood Amintoosi, m.amintoosi@gmail.com
-%%  https://github.com/sinamomken/tehran-thesis
+%%  Author: mehrdad ghassabi, mehrdad.gv@gmail.com
+%%	Base author: sina momken, sina.momken@gmail.com
+%%  https://github.com/Mehrdadghassabi/isfahan-thesis
 %%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{tehran-thesis}
@@ -96,6 +97,7 @@
 \centerline{{\includegraphics[width=5cm]{logo}}}
 \centerline{\bf \@university}
 \centerline{\large\bfseries\@faculty}
+\centerline{\large\bfseries\@department}
 % بعد از آرم‌
 \centering
 \vskip 1.5cm
@@ -147,16 +149,14 @@
 \centerline{{\includegraphics[width=5cm]{logo}}}
 \centerline{\bf \@university}
 \centerline{\large\bfseries\@faculty}
-
+\centerline{\large\bfseries\@department}
 
 
 \begin{center}
-{\Large\bfseries
-	گواهی دفاع از \@projectLabel{} \@degree{}
-}
+
 \end{center}
-%\vspace{.5cm}
-هیأت داوران \@projectLabel{}ٔ \@degree{} آقای~/~خانم \@name{} \@surname{} به شمارهٔ دانشجویی \@studentID{} در رشتهٔ \@subject{}~-~ را در تاریخ ............ با عنوان  «\@title{}» و نمره نهایی زیر ارزیابی کرد \\
+\vspace{.1cm}
+هیأت داوران \@projectLabel{}ٔ \@degree{} آقای~/~خانم \@name{} \@surname{} به شمارهٔ دانشجویی \@studentID{} \\در رشتهٔ \@subject{} را در تاریخ ............ با عنوان  «\@title{}» و نمره نهایی زیر ارزیابی کرد. \\
 
 \makebox[\textwidth][l]{
 \parbox{0.7\textwidth}{
@@ -172,7 +172,7 @@
 \noindent
 	\begin{minipage}{0.45\textwidth}
 		\begin{center}
-			نام و نام خانوادگی استاد راهنما\\
+			نام و نام خانوادگی استاد راهنما:\\
 			تاریخ و امضا:
 		\end{center}
 	\end{minipage}
@@ -236,7 +236,7 @@
 \else   
 	\cleardoublepage
 	\thispagestyle{empty}
-	\centerline{\Large \bfseries قدردانی}
+	\centerline{\Large \bfseries سپاس گزاری}
 	\vspace{1cm}
 	\par\noindent
 	\@acknowledgement
@@ -273,10 +273,11 @@ pdfdirection={R2L}
 }
 
 %%
-%% Author: Sina Momken
+%% Author: Mehrdad ghassabi
 %%
-%% Base author: M.Amintoosi
+%% Base author: Sina Momken ,M.Amintoosi
 %% 
+%% Copyright © 2022-     by Mehrdad ghassabi (isfahan-thesis)
 %% Copyright © 2019-     by Hadi Safari (tehran-thesis)
 %% Copyright © 2017-     by Sina Momken (tehran-thesis)
 %% Copyright © 2012-2012 by Mahmood Amintoosi (IUST-Thesis)

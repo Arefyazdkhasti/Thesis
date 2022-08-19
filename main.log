@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.14)  17 AUG 2022 11:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.14)  19 AUG 2022 06:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4208,7 +4208,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  39027 strings out of 476191
  770927 string characters out of 5812072
- 1335847 words of memory out of 5000000
+ 1335552 words of memory out of 5000000
  58647 multiletter control sequences out of 15000+600000
  480236 words of font info for 140 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
