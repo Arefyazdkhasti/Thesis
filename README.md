@@ -1,9 +1,6 @@
-# tehran-thesis
+# isfahan-thesis
 
-[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest)
-<!-- [![Travis (.org)](https://img.shields.io/travis/sinamomken/tehran-thesis.svg?style=flat-square)](https://travis-ci.org/sinamomken/tehran-thesis) -->
-
-LaTeX template for MSc/BSc/PhD theses of University of Tehran.
+LaTeX template for final BSc project in University of isfahan.
 <div dir="rtl">قالب لاتک پروژه کارشناسی دانشگاه اصفهان</div>
 
 <div dir="rtl">
@@ -13,7 +10,6 @@ LaTeX template for MSc/BSc/PhD theses of University of Tehran.
 1. منطبق با [«دستورالعمل نگارش و تدوین پایان‌نامه» دانشگاه تهران، ویرایش اول، شهریور ۱۳۹۲][egufa site].
 1. طراحی مدولار و انعطاف‌پذیر، به همراه دستورات از پیش‌تعریف‌شده برای مشخصات متغیر یک پایان‌نامهٔ دانشگاه تهران (مثل عنوان، نام دانشجو، استاد راهنما، تاریخ و غیره).
 1. ‫استفاده از قلم‌های استاندارد [سری X نسخهٔ ۲][irmug-persian] یا قلم‌های استاندارد سری [IRFonts][irfonts] اثر شورای عالی اطلاع‌رسانی (به جای قلم‌های غیراستاندارد BFonts).
-1. ‫ساخته شده بر اساس قالب‌های پیشرفته‌های [IUST-Thesis][iust-template] و HSU-Thesis-V1 اثر دکتر محمود امین‌طوسی.
 1. حاوی توضیحات گویا در مورد چگونگی استفاده از این قالب و نیز نکات لازم در مورد نوشتن هر فصل یک پایان‌نامهٔ دانشگاه تهران.
 1. قابلیت انتخاب سبک‌های ارجاع‌دهی فارسی گوناگون برای رشته‌های مختلف، مطابق با سیستم‌های شماره‌دار و نویسنده-سال.
 1. ‫مدیریت هوشمند واژه‌نامه‌ها و درج اصطلاحات تخصصی، با استفاده از بستهٔ `glossaries` و موتور `xindy`.
@@ -69,10 +65,10 @@ It's possible to download the latest released version of template from
 Also, by the following command you can access to the latest developing version of template:
 
 ```bash
-git clone https://github.com/sinamomken/tehran-thesis --single-branch
+git clone https://github.com/Mehrdadghassabi/isfahan-thesis  --single-branch
 ```
 
-_tehran-thesis_ latex template is a portable package, that is designed for customization by the student to fill his/her thesis materials.
+_isfahan-thesis_ latex template is a portable package, that is designed for customization by the student to fill his/her thesis materials.
 Therefor, it doesn't need any installation. However, it uses many technologies to fulfill its duties. Dependencies below must be installed:
 
 #### Prerequisites
@@ -96,8 +92,6 @@ Therefor, it doesn't need any installation. However, it uses many technologies t
 [iust-template]: http://www.parsilatex.com/joomla/index.php/remository/Thesis_Templates/%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%D9%84%D8%A7%D8%AA%DA%A9-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%AA%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B9%D9%84%D9%85-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/
 
 [biditexmaker]: http://www.parsilatex.com/joomla/index.php?option=com_remository&Itemid=82&func=select&id=2
-
-[imgs]: https://github.com/sinamomken/tehran-thesis/tree/master/img
 
 [irmug-persian]: http://wiki.irmug.com/index.php/%D9%82%D9%84%D9%85%D9%87%D8%A7%DB%8C_%D8%B3%D8%B1%DB%8C_%D8%A7%DB%8C%DA%A9%D8%B3_%D9%86%D8%B3%D8%AE%D9%87%D9%94_%DB%B2
 [irmug-english]: http://wiki.irmug.com/index.php/X_Series_2
