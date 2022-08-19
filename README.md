@@ -28,7 +28,7 @@ https://github.com/Mehrdadghassabi/isfahan-thesis --single-branch
 
 </div>
 
-‫قالب پایان‌نامه tehran-thesis_ در واقع یک بستهٔ قابل‌حمل است که بگونه‌ای طراحی شده تا مشخصات متغیر پایان‌نامه توسط دانشجو عوض شود و مطالب پایان‌نامه نیز توسط وی در فصول مختلف وارد گردد. به هیچ تلاشی برای قالب‌بندی نیاز نیست و تنها کافی است دانشجو طبق توضیحات، مطالب خود را وارد نماید.
+‫قالب پایان‌نامه isfahan-thesis_ در واقع یک بستهٔ قابل‌حمل است که بگونه‌ای طراحی شده تا مشخصات متغیر پایان‌نامه توسط دانشجو عوض شود و مطالب پایان‌نامه نیز توسط وی در فصول مختلف وارد گردد. به هیچ تلاشی برای قالب‌بندی نیاز نیست و تنها کافی است دانشجو طبق توضیحات، مطالب خود را وارد نماید.
 در نتیجه این قالب به نصب نیاز ندارد. با این حال، این قالب از تکنولوژی‌ها و بسته‌های مختلفی استفاده می‌کند. پیش‌نیازهای زیر قبل از استفاده از قالب باید نصب باشند:
 
 #### پیش‌نیازها
@@ -60,9 +60,7 @@ https://github.com/Mehrdadghassabi/isfahan-thesis --single-branch
 1. Standard headers, odd/even margins and page numberings.
 
 ### How to Use
-It's possible to download the latest released version of template from
-[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest).
-Also, by the following command you can access to the latest developing version of template:
+by the following command you can access to the latest developing version of template:
 
 ```bash
 git clone https://github.com/Mehrdadghassabi/isfahan-thesis  --single-branch
