@@ -4,7 +4,7 @@
 <!-- [![Travis (.org)](https://img.shields.io/travis/sinamomken/tehran-thesis.svg?style=flat-square)](https://travis-ci.org/sinamomken/tehran-thesis) -->
 
 LaTeX template for MSc/BSc/PhD theses of University of Tehran.
-<div dir="rtl">قالب لاتک پایان‌نامه دانشگاه تهران</div>
+<div dir="rtl">قالب لاتک پروژه کارشناسی دانشگاه اصفهان</div>
 
 <div dir="rtl">
 
@@ -23,9 +23,6 @@ LaTeX template for MSc/BSc/PhD theses of University of Tehran.
 
 ### چگونه استفاده کنیم؟
 
-آخرین نسخهٔ منتشرشدهٔ قالب را می‌توانید از
-[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest)
-دریافت کنید.
 با دستور زیر نیز می‌توانید به آخرین نسخهٔ در حال توسعهٔ قالب دسترسی داشته باشید:
 <div dir="ltr">
 
@@ -35,7 +32,7 @@ git clone https://github.com/sinamomken/tehran-thesis --single-branch
 
 </div>
 
-‫قالب پایان‌نامهٔ _tehran-thesis_ در واقع یک بستهٔ قابل‌حمل است که بگونه‌ای طراحی شده تا مشخصات متغیر پایان‌نامه توسط دانشجو عوض شود و مطالب پایان‌نامه نیز توسط وی در فصول مختلف وارد گردد. به هیچ تلاشی برای قالب‌بندی نیاز نیست و تنها کافی است دانشجو طبق توضیحات، مطالب خود را وارد نماید.
+‫قالب پایان‌نامه tehran-thesis_ در واقع یک بستهٔ قابل‌حمل است که بگونه‌ای طراحی شده تا مشخصات متغیر پایان‌نامه توسط دانشجو عوض شود و مطالب پایان‌نامه نیز توسط وی در فصول مختلف وارد گردد. به هیچ تلاشی برای قالب‌بندی نیاز نیست و تنها کافی است دانشجو طبق توضیحات، مطالب خود را وارد نماید.
 در نتیجه این قالب به نصب نیاز ندارد. با این حال، این قالب از تکنولوژی‌ها و بسته‌های مختلفی استفاده می‌کند. پیش‌نیازهای زیر قبل از استفاده از قالب باید نصب باشند:
 
 #### پیش‌نیازها
@@ -91,23 +88,6 @@ Therefor, it doesn't need any installation. However, it uses many technologies t
 * A TeX editor/IDE with RTL support, e.g. [`BiDiTexmaker`][biditexmaker].
 * \[Optional\] X Series 2 & Junicode Fonts installed in your system.
 
-## Screenshots
-#### tehran-thesis in BiDiTexmaker  
-![biditexmaker](./img/biditexmaker.png "biditexmaker")
-
-#### tehran-thesis in BiDiTexmaker (draft mode)  
-![biditexmaker-draft](./img/biditexmaker-draft.png "biditexmaker-draft")
-
-#### Example of citation to various sources  
-<img src="./img/cite-example.jpg" alt="cite-example" width="49%"/> <img src="./img/bibliography.jpg" alt="bibliography" width="49%"/>
-
-#### Glossary and index  
-<img src="./img/fa2en-glossary.jpg" alt="fa2en-glossary" width="49%"/> <img src="./img/index.jpg" alt="index" width="49%"/>
-
-#### Colorized codes and todo notes (in draft version)  
-<img src="./img/algs-codes.jpg" alt="colorized codes" width="49%"/> <img src="./img/todos.jpg" alt="todo notes" width="49%"/>
-
-More screenshots are available in [`img`][imgs] folder.
 
 [egufa site]: https://github.com/sinamomken/tehran-thesis/wiki/%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%BE%D8%B1%D8%AF%DB%8C%D8%B3-%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%81%D9%86%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D9%87%D8%B1%D8%A7%D9%86
 
