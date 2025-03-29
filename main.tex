@@ -38,6 +38,33 @@ oneside
 \input{./tex/words}
 \input{./tex/acronyms}
 
+
+%reset number of foot notes for each page
+\usepackage{everypage}
+\renewcommand{\footnoterule}{\vspace{1em}\hrule width \linewidth height 0.5pt}
+\AddEverypageHook{\setcounter{footnote}{0}}
+
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xepersian} % RTL support and Persian fonts
+\usepackage{tabularx}
+\usepackage{setspace} % For \onehalfspacing
+\usepackage{fontawesome} % For speical chars like check and Cross
+
+\usepackage{cite} % for numbered citations
+\usepackage{setspace} % for one-and-a-half spacing
+\usepackage{url} % for URLs in bibliography
+ 
+\usepackage{hyperref} %for hyperlinking
+
+\usepackage{csquotes} %for custom quoting
+\usepackage{bidi} %for LTR support
+\usepackage{amsmath} % For mathematical symbols
+\usepackage{bidi}       % For bidirectional support
+\usepackage{amsmath} % if you're using math environments
+\usepackage{xepersian}
+
+
 \begin{document}
 
 \pagenumbering{adadi} % یک، دو، ...
@@ -59,7 +86,7 @@ oneside
 \small
 \onehalfspacing
 \bibliographystyle{plain-fa} % or plainnat-fa for author-date
-\bibliography{./tex/MyReferences}
+\bibliography{./tex/references}
 }
 
 \pagestyle{fancy}
@@ -81,9 +108,9 @@ oneside
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
 
-\include{./tex/appendix1}		% پیوست اول: آشنایی مقدماتی با لاتک
-\include{./tex/appendix2}		% پیوست دوم: جدول، نمودار و الگوریتم در لاتک
-\include{./tex/appendix3}   	% پیوست سوم: مراجع، واژه‌نامه و حاشیه‌نویسی
+% \include{./tex/appendix1}		% پیوست اول: آشنایی مقدماتی با لاتک
+% \include{./tex/appendix2}		% پیوست دوم: جدول، نمودار و الگوریتم در لاتک
+% \include{./tex/appendix3}   	% پیوست سوم: مراجع، واژه‌نامه و حاشیه‌نویسی
 
 % برگرداندن شماره‌بندی صفحات فصول
 % \let\chapter\Chapter
@@ -96,7 +123,6 @@ oneside
 \printglossary
 \cleardoublepage
 \printindex
-
 
 
 \end{document}
