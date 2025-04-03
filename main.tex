@@ -19,6 +19,8 @@
 
 % برای استفاده از قلم‌های سری IR Series گزینه irfonts را وارد و برای استفاده از قلم‌های X Series 2 آن را حذف کنید.
 
+
+
 \documentclass[
 oneside
 % ,openany
@@ -26,6 +28,7 @@ oneside
 ,irfonts
 % ,draft
 ]{./tex/tehran-thesis}
+\usepackage{titlesec}
 
 % فایل commands.tex را مطالعه کنید؛ چون دستورات مربوط به فراخوانی بسته‌ها، فونت و دستورات خاص در این فایل قرار دارد.
 \input{./tex/commands}
@@ -60,10 +63,20 @@ oneside
 \usepackage{csquotes} %for custom quoting
 \usepackage{bidi} %for LTR support
 \usepackage{amsmath} % For mathematical symbols
-\usepackage{bidi}       % For bidirectional support
 \usepackage{amsmath} % if you're using math environments
-\usepackage{xepersian}
+\usepackage{fancyhdr}
 
+\usepackage{xepersian}
+\usepackage{bidi}       % For bidirectional support
+
+
+
+% Set chapter title formatting to left-aligned
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries} % Formatting for the entire chapter title
+  {\raggedright\chaptertitlename\ \thechapter} % Chapter number and name (left-aligned)
+  {20pt} % Space between chapter number and title
+  {\Huge\raggedright} % Formatting for the chapter title text (left-aligned) 
 
 
 \begin{document}
@@ -80,6 +93,14 @@ oneside
 \include{./tex/chapter3}		% فصل سوم: روش تحقیق
 \include{./tex/chapter4}		% فصل چهارم: نتایج
 \include{./tex/chapter5}		% فصل پنجم: بحث و نتیجه‌گیری
+
+% Change the name of the bibliography section
+\renewcommand{\bibname}{واژه‌نامه}
+%\def\bibname{واژه نامه}
+
+% Ensure proper linking for hyperref
+\cleardoublepage
+\phantomsection
 
 % مراجع
 % اگر از استیل‌های natbib استفاده می‌کنید باید دو خط را در فایل commands.tex تغییر دهید.
@@ -125,6 +146,5 @@ oneside
 \printglossary
 \cleardoublepage
 \printindex
-
 
 \end{document}
