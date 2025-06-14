@@ -2,11 +2,11 @@
 
 \begin{table}[ht]
     \centering
-    \caption{آنالیز حساسیت}
+    \caption{مطالعه فرسایشی}
     \label{tab:SensitivityAnalysis}
     \renewcommand{\arraystretch}{1} % Adjusts row height
     \onehalfspacing
-    \begin{tabularx}{\textwidth}{|
+    \begin{tabularx}{0.91\textwidth}{|
              >{\centering\arraybackslash}m{3.6cm}|
              >{\centering\arraybackslash}m{0.9cm}|
              >{\centering\arraybackslash}m{0.9cm}|
@@ -14,17 +14,15 @@
              >{\centering\arraybackslash}m{0.9cm}|
              >{\centering\arraybackslash}m{1.2cm}|
              >{\centering\arraybackslash}m{0.9cm}|
-             >{\centering\arraybackslash}m{0.9cm}|
              >{\centering\arraybackslash}m{0.9cm}|} % Updated column count
         \hline
         \rotatebox{0}{معیارهای ارزیابی} & 
         \rotatebox{90}{Perplexity} &         
         \rotatebox{90}{ \text{\num{Distinct-1}}} & 
         \rotatebox{90}{ \text{\num{Distinct-2}}} & 
-        \rotatebox{90}{\text{\num{Success Rate}}} & 
-        \rotatebox{90}{\text{\num{Completion Rate}}} & 
+        \rotatebox{90}{\text{\num{SuccessRate}}} & 
+        \rotatebox{90}{\text{\num{CompletionRate}}} & 
         \rotatebox{90}{UES} & 
-        \rotatebox{90}{PRA} & 
         \rotatebox{90}{PDM} \\ % Ensure header matches columns
         \hline
         \rotatebox{0}{سیستم کامل} & 
@@ -34,7 +32,6 @@
         \textbf{\num{91.97}} & 
         \textbf{\num{93.87}} & 
         \textbf{\num{91.97}} & 
-        \textbf{\num{76.41}} & 
         \textbf{\num{94.29}} \\
         \hline
         \rotatebox{0}{بدون تحلیل معنایی} & 
@@ -44,7 +41,6 @@
         \text{\num{88}} & 
         \text{\num{90}} & 
         \text{\num{88}} & 
-        \text{\num{73.2}} & 
         \text{\num{91}} \\
         \hline
         \rotatebox{0}{بدون فیلتر مشارکتی} & 
@@ -54,7 +50,6 @@
         \text{\num{89}} & 
         \text{\num{91}} & 
         \text{\num{89}} & 
-        \text{\num{74.5}} & 
         \text{\num{92.5}} \\
         \hline
         \rotatebox{0}{کاهش طول خروجی مدل} & 
@@ -64,7 +59,6 @@
         \text{\num{85}} & 
         \text{\num{88}} & 
         \text{\num{85}} & 
-        \text{\num{71}} & 
         \text{\num{89}} \\
         \hline
         \rotatebox{0}{بدون پروفایل کاربری} & 
@@ -74,7 +68,6 @@
         \text{\num{80}} & 
         \text{\num{83}} & 
         \text{\num{80}} & 
-        \text{\num{68}} & 
         \text{\num{85}} \\
         \hline
     \end{tabularx}
