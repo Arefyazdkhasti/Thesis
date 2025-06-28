@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.9.14)  24 MAY 2025 21:48
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.9.14)  15 JUN 2025 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2693,11 +2693,65 @@ flt;script=arab;mapping=persian-tex-text;!
 ] (main.mw)
 \openout5 = `main.mw'.
 
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
+(Font)              scaled to size 11.99997pt on input line 9.
+LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
+(Font)              scaled to size 11.99997pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
+(Font)              scaled to size 8.39998pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
+(Font)              scaled to size 5.99998pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
+(Font)              scaled to size 11.99997pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
+(Font)              scaled to size 8.39998pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
+(Font)              scaled to size 5.99998pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
+(Font)              scaled to size 11.99997pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
+(Font)              scaled to size 8.39998pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
+(Font)              scaled to size 5.99998pt on input line 9.
+LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
+(Font)              scaled to size 14.39996pt on input line 9.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
+(Font)              scaled to size 14.39996pt on input line 9.
+
+Overfull \vbox (4.01518pt too high) has occurred while \output is active []
+
 \openout5 = `main.mw'.
 
- [6
+
+[6
 
 ] (main.mw)
+\openout5 = `main.mw'.
+
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
+(Font)              scaled to size 13.13995pt on input line 11.
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[7] (main.mw)
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/b/n' will be
@@ -2735,10 +2789,6 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 46.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 46.
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -2923,11 +2973,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Overfull \hbox (5.83105pt too wide) in paragraph at lines 49--50
-[]\TU/IRLotusICEE.ttf(0)/m/n/12 تنظیم سریع و پروفایل‌سازی کاربر است. در واقع ار
-ائه یک روش مبتنی بر ترکیب تنظیم سریع و پروفایل‌سازی[]
- []
-
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -2951,6 +2996,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+
+Overfull \hbox (17.06221pt too wide) in paragraph at lines 76--77
+[]\TU/IRLotusICEE.ttf(0)/m/n/12 حوزه‌های مختلف مانند خدمات مشتری، آموزش، و تجار
+ت الکترونیک را داراست. ارائه پاسخ‌های شخصی‌سازی‌شده[]
+ []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -3003,11 +3053,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-
-Overfull \hbox (13.4037pt too wide) in paragraph at lines 157--159
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ترکیب سه رویکرد (پروفایل‌سازی ساده، تحلیل احس
-اسات، و فیلتر مشارکتی) باعث شده است که پروفایل‌های[]
- []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -3082,34 +3127,6 @@ Missing character: There is no   in font [./font/IRLotusICEE_Bold.ttf]/OT:lang
 age=dflt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE_Bold.ttf]/OT:langu
 age=dflt;script=arab;mapping=persian-tex-text;!
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 7.
-LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 8.39998pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 5.99998pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 11.99997pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 8.39998pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 5.99998pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 11.99997pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 8.39998pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 5.99998pt on input line 7.
-LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 14.39996pt on input line 10.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 14.39996pt on input line 10.
 
 Overfull \hbox (2.82872pt too wide) in paragraph at lines 18--22
 []\TU/IRLotusICEE.ttf(0)/m/n/12 سیستم‌های گفتگوی دامنه‌باز: این بخش به سیستم‌ها
@@ -3135,9 +3152,9 @@ Overfull \hbox (2.82872pt too wide) in paragraph at lines 18--22
 \openout5 = `main.mw'.
 
 
-Overfull \hbox (9.6631pt too wide) in paragraph at lines 25--29
-[]\TU/IRLotusICEE.ttf(0)/m/n/12 پروفایل صریح و ضمنی: تکنیک‌های مرتبط با جمع‌آور
-ی داده‌های صریح (مانند اطلاعات جمعیت‌شناختی)[]
+Overfull \hbox (1.88655pt too wide) in paragraph at lines 25--29
+[]\TU/IRLotusICEE.ttf(0)/m/n/12 نماگر صریح و ضمنی: تکنیک‌های مرتبط با جمع‌آوری 
+داده‌های صریح (مانند اطلاعات جمعیت‌شناختی)[]
  []
 
 LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/b/n' will be
@@ -3776,12 +3793,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Overfull \hbox (5.6178pt too wide) in paragraph at lines 577--579
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 مصرف منابع محاسباتی زیاد: استفاده از مدل‌های 
-زبانی بزرگ برای سیستم‌های گفتگوی وظیفه‌محور[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 582--583
 [][]
  []
@@ -3937,12 +3948,6 @@ Overfull \hbox (16.89343pt too wide) in paragraph at lines 678--686
  []
 
 
-Overfull \hbox (1.02396pt too wide) in paragraph at lines 678--686
-[]\TU/IRLotusICEE.ttf(0)/m/n/12 پروفایل ضمنی به اطلاعاتی اشاره دارد که به‌طور غ
-یرمستقیم از رفتارها و فعالیت‌های کاربران در پلتفرم‌ها جمع‌آوری[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 678--686
 [][]
  []
@@ -4027,18 +4032,12 @@ LaTeX Warning: Citation `azzam2022model' on page 34 undefined on input line 718
 .
 
 
-Overfull \hbox (9.08652pt too wide) in paragraph at lines 722--724
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 کارایی در تولید پروفایل: این مدل می‌تواند به 
-سرعت پروفایل‌هایی را بر اساس داده‌های اولیه جمعیت‌شناختی[]
- []
-
-
 LaTeX Warning: Citation `azzam2022model' on page 34 undefined on input line 738
 .
 
 
-Overfull \hbox (8.51927pt too wide) in paragraph at lines 743--744
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 به طور خلاصه، در حالی که نمایه‌سازی کاربر از 
+Overfull \hbox (10.57942pt too wide) in paragraph at lines 743--744
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 به طور خلاصه، در حالی که نماگر‌سازی کاربر از 
 طریق تجزیه‌وتحلیل رسانه‌های اجتماعی بینش‌های ارزشمندی[]
  []
 
@@ -4072,12 +4071,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Citation `nag2023knowledge' on page 35 undefined on input line 7
 47.
-
-
-Overfull \hbox (1.36852pt too wide) in paragraph at lines 746--752
-[]\TU/IRLotusICEE.ttf(0)/m/n/12 رسانه‌های اجتماعی منتشر می‌شوند، می‌پردازد. هدف
- اصلی این مطالعه، توسعه مدلی برای تحلیل و پروفایل‌سازی[]
- []
 
 
 LaTeX Warning: Citation `nag2023knowledge' on page 35 undefined on input line 7
@@ -4117,6 +4110,13 @@ LaTeX Warning: Citation `nag2023knowledge' on page 36 undefined on input line 7
 
 LaTeX Warning: Citation `peterson2021user' on page 36 undefined on input line 7
 93.
+
+
+Overfull \hbox (8.44191pt too wide) in paragraph at lines 792--795
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 پترسون و همکاران [\TU/IRLotusICEE.ttf(0)/b/n/
+12 ؟\TU/IRLotusICEE.ttf(0)/m/n/12 ]، یک رویکرد متمرکز بر افزایش روش‌های نماگر ک
+اربر برای بهبود توصیه‌ها در سیستم‌های[]
+ []
 
 
 LaTeX Warning: Citation `peterson2021user' on page 36 undefined on input line 7
@@ -4545,8 +4545,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Overfull \hbox (13.76546pt too wide) in paragraph at lines 259--263
 [][]\TU/IRLotusICEE.ttf(0)/m/n/12 تولید‌کننده سوال بعدی[][][][][] (بخش \TU/IRLo
-tusICEE.ttf(1)/m/it/12 ۹\TU/IRLotusICEE.ttf(0)/m/n/12 ) : برای روشن‌کردن ورودی‌
-های مبهم یا ناقص کاربر، درخواست‌های[]
+tusICEE.ttf(1)/b/n/12 ۹\TU/IRLotusICEE.ttf(0)/m/n/12 ) : برای روشن‌کردن ورودی‌ه
+ای مبهم یا ناقص کاربر، درخواست‌های[]
  []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4569,8 +4569,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Overfull \hbox (2.55222pt too wide) in paragraph at lines 299--301
 [][]\TU/IRLotusICEE.ttf(0)/m/n/12 یکپارچه سازی بازخورد (بخش \TU/IRLotusICEE.ttf
-(1)/m/it/12 ۱۹\TU/IRLotusICEE.ttf(0)/m/n/12 ): رتبه‌بندی کاربران (پسندیدن/نپسند
-یدن/خنثی) را در پاسخ‌های[]
+(1)/b/n/12 ۱۹\TU/IRLotusICEE.ttf(0)/m/n/12 ): رتبه‌بندی کاربران (پسندیدن/نپسندی
+دن/خنثی) را در پاسخ‌های[]
  []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5035,11 +5035,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Overfull \hbox (2.93648pt too wide) in paragraph at lines 120--126
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 مجموعه‌داده مووی‌لنز برای استخراج پروفایل‌های
- کاربر، داده‌های آموزشی و داده‌های ارزیابی استفاده می‌شود.[]
- []
-
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5279,6 +5274,12 @@ flt;script=arab;mapping=persian-tex-text;!
 File: ./img/fundation.png Graphic file (type bmp)
 <./img/fundation.png>
 
+Overfull \hbox (5.06694pt too wide) in paragraph at lines 424--425
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 آزمایش‌های فرعی جهت ارزیابی قسمت‌های مختلف دخ
+یل در فرآیند نماگر‌سازی کاربر به شرح زیر دسته‌بندی[]
+ []
+
+
 Overfull \vbox (1.27164pt too high) has occurred while \output is active []
 
 
@@ -5301,20 +5302,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (tex/sensitivity-analysis-table.tex
 Overfull \hbox (3.57935pt too wide) in paragraph at lines 73--73
- [][]\TU/IRLotusICEE.ttf(1)/m/it/12 ۹۱\TU/IRLotusICEE.ttf(0)/b/n/12 .‏\TU/IRLot
-usICEE.ttf(1)/m/it/12 ۹۷[][] 
+ [][]\TU/IRLotusICEE.ttf(1)/b/n/12 ۹۱\TU/IRLotusICEE.ttf(0)/b/n/12 .‏\TU/IRLotu
+sICEE.ttf(1)/b/n/12 ۹۷[][] 
  []
 
 
 Overfull \hbox (3.57935pt too wide) in paragraph at lines 73--73
- [][]\TU/IRLotusICEE.ttf(1)/m/it/12 ۹۱\TU/IRLotusICEE.ttf(0)/b/n/12 .‏\TU/IRLot
-usICEE.ttf(1)/m/it/12 ۹۷[][] 
+ [][]\TU/IRLotusICEE.ttf(1)/b/n/12 ۹۱\TU/IRLotusICEE.ttf(0)/b/n/12 .‏\TU/IRLotu
+sICEE.ttf(1)/b/n/12 ۹۷[][] 
  []
 
 
 Overfull \hbox (5.15434pt too wide) in paragraph at lines 73--73
- [][]\TU/IRLotusICEE.ttf(1)/m/it/12 ۹۴\TU/IRLotusICEE.ttf(0)/b/n/12 .‏\TU/IRLot
-usICEE.ttf(1)/m/it/12 ۲۹[][] 
+ [][]\TU/IRLotusICEE.ttf(1)/b/n/12 ۹۴\TU/IRLotusICEE.ttf(0)/b/n/12 .‏\TU/IRLotu
+sICEE.ttf(1)/b/n/12 ۲۹[][] 
  []
 
 
@@ -5451,9 +5452,9 @@ ne 544.
 
 
 Overfull \hbox (7.88417pt too wide) in paragraph at lines 543--550
-[][]\TU/IRLotusICEE.ttf(1)/m/it/12 ۰\TU/IRLotusICEE.ttf(0)/m/n/12 .‏\TU/IRLotus
-ICEE.ttf(1)/m/it/12 ۵۹۵[]  \TU/IRLotusICEE.ttf(0)/m/n/12 است. این نشان می‌دهد ک
-ه مدل این مقاله نسبت به تعداد کل بای گرام‌ها، بای گرام‌های منحصربه‌فرد[]
+[][]\TU/IRLotusICEE.ttf(1)/b/n/12 ۰\TU/IRLotusICEE.ttf(0)/m/n/12 .‏\TU/IRLotusI
+CEE.ttf(1)/b/n/12 ۵۹۵[]  \TU/IRLotusICEE.ttf(0)/m/n/12 است. این نشان می‌دهد که 
+مدل این مقاله نسبت به تعداد کل بای گرام‌ها، بای گرام‌های منحصربه‌فرد[]
  []
 
 
@@ -5821,6 +5822,12 @@ Overfull \hbox (6.83884pt too wide) in paragraph at lines 183--184
 ی‌سازی، سازگاری و رعایت حریم خصوصی، شکاف‌های[]
  []
 
+
+Overfull \hbox (17.96921pt too wide) in paragraph at lines 183--184
+[]\TU/IRLotusICEE.ttf(0)/m/n/12 حیاتی در توسعه سیستم‌های گفتگوی وظیفه‌گرا را پر
+ می‌کند. همچنین یک نقشه راه برای ادغام شیوه های هوش‌مصنوعی[]
+ []
+
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5857,12 +5864,6 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
-
-Overfull \hbox (9.50136pt too wide) in paragraph at lines 222--224
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 میزان موفقیت کار: در میان پرس‌وجوهای مختلف، ا
-ین سیستم در مقایسه با سیستم‌های گفتگوی وظیفه‌محور[]
- []
-
 
 Overfull \hbox (0.51544pt too wide) in paragraph at lines 222--224
 []\TU/IRLotusICEE.ttf(0)/m/n/12 ذکر شده، هشت الی هفده درصد پیشرفت در موفقیت کار
@@ -5946,12 +5947,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Overfull \hbox (2.58261pt too wide) in paragraph at lines 264--265
 [][]\TU/IRLotusICEE.ttf(0)/m/n/12 معیارهای ارزیابی برای حوزه‌های خاص (به عنوان 
 مثال، دقت برای توصیه‌های پزشکی، ارتباط با توصیه‌های[]
- []
-
-
-Overfull \hbox (1.31227pt too wide) in paragraph at lines 284--285
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 این بخش به طور انتقادی محدودیت‌ها و مشکلاتی ر
-ا که در طول توسعه و ارزیابی سیستم گفتگوی وظیفه‌محور[]
  []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -6051,11 +6046,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 )
-Overfull \hbox (10.21382pt too wide) in paragraph at lines 352--95
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 محدودیت‌ها و چالش‌هایی که بیان شد، بر پیچیدگی
-‌های ساخت سیستم‌های گفتگوی وظیفه‌محور با ویژگی‌های[]
- []
-
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -6180,7 +6170,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 No file main.ind.
+\openout5 = `main.mw'.
 
+[4
+
+
+
+] (main.mw)
+\openout5 = `main.mw'.
+
+ 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux
 \openout5 = `main.mw'.
@@ -6758,10 +6757,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 \openout5 = `main.out'.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 01F6F51976656C087542E33E9393B536;25114.
+(rerunfilecheck)             Checksum: DC2467D846DAE15118D574F9D203A5CC;24938.
 \openout5 = `main.glo'.
 
 \openout5 = `main.acn'.
@@ -6779,12 +6781,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  )
 (\end occurred when \ifx on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 42527 strings out of 409617
- 796312 string characters out of 5772795
+ 42542 strings out of 409617
+ 796481 string characters out of 5772795
  1967191 words of memory out of 5000000
- 62021 multiletter control sequences out of 15000+600000
+ 62026 multiletter control sequences out of 15000+600000
  567156 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,16n,136p,2348b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (113 pages).
+Output written on main.pdf (115 pages).
