@@ -42,6 +42,7 @@
 \long\def\acknowledgement#1{\gdef\@acknowledgement{#1}}
 \def\keywords#1{\gdef\@keywords{#1}}
 \long\def\fa-abstract#1{\gdef\@fa-abstract{#1}}
+\long\def\en-abstract#1{\gdef\@en-abstract{#1}}
 \def\subject#1{\gdef\@subject{#1}}
 \def\projectLabel#1{\gdef\@projectLabel{#1}}
 \def\studentID#1{\gdef\@studentID{#1}}
@@ -246,15 +247,24 @@
 }
 
 %% چکیده فارسی
-\newcommand\abstractPage{
+\newcommand\persianAbstractPage{
 	\cleardoublepage
 	\thispagestyle{empty}
 	\section*{چکیده}
-	% \addcontentsline{toc}{section}{چکیده}
 	\@fa-abstract
 	\par\noindent
 	\paragraph{واژگان کلیدی}
 	\@keywords
+}
+
+
+%% چکیده انگلیسی
+\newcommand\englishAbstractPage{
+	\cleardoublepage
+	\thispagestyle{empty}
+	\section*{abstract}
+	\@en-abstract
+	\par\noindent
 }
 
 
@@ -272,12 +282,13 @@ pdfdirection={R2L}
 \makeatother
 }
 
+
 %%
-%% Author: Mehrdad ghassabi
+%% Author: Aref Yazdkhasti
 %%
 %% Base author: Sina Momken ,M.Amintoosi
 %% 
-%% Copyright © 2022-     by Mehrdad ghassabi (isfahan-thesis)
+%% Copyright © 2025-     by Aref Yazdkhasti (isfahan-thesis)
 %% Copyright © 2019-     by Hadi Safari (tehran-thesis)
 %% Copyright © 2017-     by Sina Momken (tehran-thesis)
 %% Copyright © 2012-2012 by Mahmood Amintoosi (IUST-Thesis)
