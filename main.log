@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.9.14)  28 JUN 2025 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.9.14)  3 JUL 2025 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2030,7 +2030,7 @@ File: csquotes.cfg
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
  (main.aux (tex/chapter1.aux) (tex/chapter2.aux) (tex/chapter3.aux)
-(tex/chapter4.aux) (tex/chapter5.aux))
+(tex/chapter4.aux) (tex/chapter5.aux) (tex/appendix1.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -2833,8 +2833,6 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.5297pt, for example:
@@ -2851,6 +2849,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[5] (main.mw)
+\openout5 = `main.mw'.
+
 )
 \tf@toc=\write135
 \openout5 = `main.toc'.
@@ -2870,12 +2887,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[5] (main.mw)
+[6] (main.mw)
 \openout5 = `main.mw'.
 
  (main.lof
 
-LaTeX Warning: Citation `kasahara2022building' on page ج undefined on input lin
+LaTeX Warning: Citation `kasahara2022building' on page چ undefined on input lin
 e 4.
 
 )
@@ -2884,7 +2901,7 @@ e 4.
 
 \openout5 = `main.mw'.
 
- [6
+ [7
 
 ] (main.mw)
 \openout5 = `main.mw'.
@@ -2901,7 +2918,7 @@ e 4.
 No file main.acr.
 \openout5 = `main.mw'.
 
-[7
+[8
 
 ] (main.mw)
 \openout5 = `main.mw'.
@@ -2921,6 +2938,33 @@ Missing character: There is no   in font [./font/IRLotusICEE_Bold.ttf]/OT:lang
 age=dflt;script=arab;mapping=persian-tex-text;!
 LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/b/n' will be
 (Font)              scaled to size 20.73593pt on input line 5.
+
+LaTeX Warning: Citation `camilleri2024artificial' on page 1 undefined on input 
+line 7.
+
+
+LaTeX Warning: Citation `bocklisch2024task' on page 1 undefined on input line 8
+.
+
+
+LaTeX Warning: Citation `yuan2023user' on page 1 undefined on input line 10.
+
+
+LaTeX Warning: Citation `azzam2022model' on page 1 undefined on input line 13.
+
+
+LaTeX Warning: Citation `yuan2023user' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation `zhang2024right' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Citation `kasahara2022building' on page 1 undefined on input lin
+e 21.
+
+
+LaTeX Warning: Citation `madotto2021few' on page 1 undefined on input line 23.
+
 \openout5 = `main.mw'.
 
 [1
@@ -2942,13 +2986,23 @@ LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/b/n' will be
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 
-Overfull \hbox (2.00136pt too wide) in paragraph at lines 13--14
+LaTeX Warning: Citation `elahi2023hybrid' on page 2 undefined on input line 26.
+
+
+
+LaTeX Warning: Citation `zhang2024right' on page 2 undefined on input line 28.
+
+
+Overfull \hbox (2.00136pt too wide) in paragraph at lines 25--29
 [][]\TU/IRLotusICEE.ttf(0)/m/n/12 این پژوهش با هدف ارائه یک چارچوب جدید برای به
 بود سیستم‌های گفتگوی وظیفه‌گرا، ترکیبی از تکنیک‌های[]
  []
 
+
+LaTeX Warning: Citation `chen2023zero' on page 2 undefined on input line 31.
+
 LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 33.
+(Font)              scaled to size 13.13995pt on input line 49.
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -3001,7 +3055,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Overfull \hbox (10.98495pt too wide) in paragraph at lines 79--80
+Overfull \hbox (10.98495pt too wide) in paragraph at lines 95--96
 []\TU/IRLotusICEE.ttf(0)/m/n/12 نماگر‌سازی پیشرفته کاربر بهره می‌برد. این رویکر
 د نشان می‌دهد که چگونه تلفیق داده‌های شخصی‌سازی‌شده[]
  []
@@ -3054,7 +3108,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/b/n' will be
-(Font)              scaled to size 17.27994pt on input line 119.
+(Font)              scaled to size 17.27994pt on input line 135.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -4355,6 +4409,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 فصل 3.
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
 \openout5 = `main.mw'.
 
 [41
@@ -4373,11 +4429,13 @@ flt;script=arab;mapping=persian-tex-text;!
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--29
-[][]
- []
+\openout5 = `main.mw'.
 
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4399,78 +4457,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.5297pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.5297pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
-
 \openout5 = `main.mw'.
 
-[43] (main.mw)
-\openout5 = `main.mw'.
-
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 7.19998pt on input line 141.
-Missing character: There is no ​ in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no ​ in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.5297pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.5297pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
-
-\openout5 = `main.mw'.
-
-[44] (main.mw)
-\openout5 = `main.mw'.
-
-
-
-LaTeX Warning: Citation `singh2020movie' on page 45 undefined on input line 160
-.
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.5297pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.5297pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
-
-\openout5 = `main.mw'.
-
-[45] (main.mw)
 \openout5 = `main.mw'.
 
 
@@ -4494,7 +4482,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[46] (main.mw)
+[43] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4506,33 +4494,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Overfull \vbox (1.55272pt too high) has occurred while \output is active []
-
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.5297pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.5297pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
-
-\openout5 = `main.mw'.
-
-[47] (main.mw)
-\openout5 = `main.mw'.
-
-
-Overfull \hbox (13.76546pt too wide) in paragraph at lines 259--263
+Overfull \hbox (14.81546pt too wide) in paragraph at lines 92--96
 [][]\TU/IRLotusICEE.ttf(0)/m/n/12 تولید‌کننده سوال بعدی[][][][][] (بخش \TU/IRLo
 tusICEE.ttf(1)/b/n/12 ۹\TU/IRLotusICEE.ttf(0)/m/n/12 ) : برای روشن‌کردن ورودی‌ه
 ای مبهم یا ناقص کاربر، درخواست‌های[]
  []
 
+
+Overfull \vbox (2.89224pt too high) has occurred while \output is active []
+
+
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4547,11 +4518,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[48] (main.mw)
+[44] (main.mw)
 \openout5 = `main.mw'.
 
 
-Overfull \hbox (2.55222pt too wide) in paragraph at lines 299--301
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[45] (main.mw)
+\openout5 = `main.mw'.
+
+
+Overfull \hbox (2.55222pt too wide) in paragraph at lines 132--134
 [][]\TU/IRLotusICEE.ttf(0)/m/n/12 یکپارچه سازی بازخورد (بخش \TU/IRLotusICEE.ttf
 (1)/b/n/12 ۱۹\TU/IRLotusICEE.ttf(0)/m/n/12 ): رتبه‌بندی کاربران (پسندیدن/نپسندی
 دن/خنثی) را در پاسخ‌های[]
@@ -4575,10 +4564,98 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
 
-Overfull \vbox (6.82448pt too high) has occurred while \output is active []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[46] (main.mw)
+\openout5 = `main.mw'.
 
 
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+LaTeX Warning: Citation `singh2020movie' on page 47 undefined on input line 202
+.
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[47] (main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+Overfull \hbox (1.36626pt too wide) in paragraph at lines 218--219
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 هدف استخراج موجودیت‌های نام‌گذاری‌شده، شناسای
+ی و طبقه‌بندی خودکار این موجودیت‌های نام‌گذاری[]
+ []
+
+
+LaTeX Warning: Citation `corecco2024evolution' on page 48 undefined on input li
+ne 232.
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+LaTeX Warning: Citation `fan2024recommender' on page 48 undefined on input line
+ 244.
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[48] (main.mw)
+\openout5 = `main.mw'.
+
+
+Overfull \hbox (1.0897pt too wide) in paragraph at lines 254--256
+[]\TU/IRLotusICEE.ttf(0)/m/n/12 دهد. ژانرهای موجود به شرح زیر است: کمدی، موزیکا
+ل، هیجان‌انگیز، عاشقانه، مستند، ترسناک،[]
+ []
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4597,14 +4674,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
+Overfull \hbox (49.34193pt too wide) in paragraph at lines 309--310
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 I need movies similar to Inception in the Sci
+-Fi genre (metadatas: movie=Inception[]
+ []
+
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-LaTeX Warning: Citation `singh2020movie' on page 50 undefined on input line 369
-.
-
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4626,25 +4702,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-Overfull \hbox (1.36626pt too wide) in paragraph at lines 385--386
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 هدف استخراج موجودیت‌های نام‌گذاری‌شده، شناسای
-ی و طبقه‌بندی خودکار این موجودیت‌های نام‌گذاری[]
- []
-
-
-LaTeX Warning: Citation `corecco2024evolution' on page 51 undefined on input li
-ne 399.
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-LaTeX Warning: Citation `fan2024recommender' on page 51 undefined on input line
- 411.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -4664,13 +4721,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Overfull \hbox (1.0897pt too wide) in paragraph at lines 421--423
-[]\TU/IRLotusICEE.ttf(0)/m/n/12 دهد. ژانرهای موجود به شرح زیر است: کمدی، موزیکا
-ل، هیجان‌انگیز، عاشقانه، مستند، ترسناک،[]
+Overfull \hbox (1.7037pt too wide) in paragraph at lines 356--357
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 سیستم شامل مکانیزمی برای اجرای «حق فراموشی» ا
+ست. این امکان به کاربر اجازه می‌دهد که درخواست[]
  []
 
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4688,14 +4743,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [52] (main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-Overfull \hbox (49.34193pt too wide) in paragraph at lines 476--477
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 I need movies similar to Inception in the Sci
--Fi genre (metadatas: movie=Inception[]
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+[][]
  []
 
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4717,7 +4781,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 424.
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4735,11 +4807,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [54] (main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-Overfull \hbox (1.7037pt too wide) in paragraph at lines 523--524
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 سیستم شامل مکانیزمی برای اجرای «حق فراموشی» ا
-ست. این امکان به کاربر اجازه می‌دهد که درخواست[]
- []
+\openout5 = `main.mw'.
+
+
+
+LaTeX Warning: Citation `elahi2023hybrid' on page 55 undefined on input line 44
+3.
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+LaTeX Warning: Citation `abdalla2023boosting' on page 55 undefined on input lin
+e 470.
+
+
+Overfull \vbox (0.46793pt too high) has occurred while \output is active []
+
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -4762,17 +4847,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
-[][]
+LaTeX Warning: Citation `dwivedi2023item' on page 56 undefined on input line 48
+1.
+
+
+Overfull \hbox (6.11703pt too wide) in paragraph at lines 500--502
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ایجاد ماتریس کاربر-فیلم: یک ماتریس از داده‌ها
+ی امتیازدهی ایجاد می‌شود که نشان‌دهنده تعاملات[]
+ []
+
+
+Overfull \hbox (5.90611pt too wide) in paragraph at lines 513--514
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 پیش‌بینی امتیاز برای فیلم‌های جدید: فیلم‌های 
+مشابه با استفاده از میانگین وزنی امتیازات و شباهت‌ها[]
  []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4792,17 +4881,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [56] (main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4818,98 +4897,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 [57] (main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-
-LaTeX Warning: Citation `elahi2023hybrid' on page 58 undefined on input line 61
-0.
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-LaTeX Warning: Citation `abdalla2023boosting' on page 58 undefined on input lin
-e 637.
-
-
-Overfull \vbox (0.46793pt too high) has occurred while \output is active []
-
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.5297pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.5297pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
-
-\openout5 = `main.mw'.
-
-[58] (main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-
-LaTeX Warning: Citation `dwivedi2023item' on page 59 undefined on input line 64
-8.
-
-
-Overfull \hbox (6.11703pt too wide) in paragraph at lines 667--669
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ایجاد ماتریس کاربر-فیلم: یک ماتریس از داده‌ها
-ی امتیازدهی ایجاد می‌شود که نشان‌دهنده تعاملات[]
- []
-
-
-Overfull \hbox (5.90611pt too wide) in paragraph at lines 680--681
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 پیش‌بینی امتیاز برای فیلم‌های جدید: فیلم‌های 
-مشابه با استفاده از میانگین وزنی امتیازات و شباهت‌ها[]
- []
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.5297pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.5297pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
-
-\openout5 = `main.mw'.
-
-[59] (main.mw)
-\openout5 = `main.mw'.
-
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.5297pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.5297pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
-
-\openout5 = `main.mw'.
-
-[60] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4935,7 +4922,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[61] (main.mw)
+[58] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4950,7 +4937,7 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 \openout5 = `main.mw'.
 
-[62
+[59
 
 
 
@@ -4985,7 +4972,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[63] (main.mw)
+[60] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4993,7 +4980,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--117
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--107
 [][]
  []
 
@@ -5011,11 +5001,83 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+[61] (main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.86447pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.86447pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.86447pt}.
+
+\openout5 = `main.mw'.
+
+[62] (main.mw)
+\openout5 = `main.mw'.
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.86447pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.86447pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.86447pt}.
+
+\openout5 = `main.mw'.
+
+[63] (main.mw)
+\openout5 = `main.mw'.
+
+
+Missing character: There is no ​ in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no ​ in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+LaTeX Warning: Citation `singh2020movie' on page 64 undefined on input line 238
+.
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.86447pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.86447pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.86447pt}.
+
+\openout5 = `main.mw'.
+
 [64] (main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 \openout5 = `main.mw'.
 
 
@@ -5040,14 +5102,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
+Underfull \hbox (badness 10000) in paragraph at lines 310--317
+[][]
+ []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5066,9 +5124,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [66] (main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
+\openout5 = `main.mw'.
+
+
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5090,11 +5150,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 17.27994pt on input line 248.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 17.27994pt on input line 248.
+\openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5116,16 +5178,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
+Overfull \vbox (4.14009pt too high) has occurred while \output is active []
 
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-LaTeX Warning: Citation `li2015diversity' on page 69 undefined on input line 26
-8.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5148,25 +5203,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
+(Font)              scaled to size 17.27994pt on input line 448.
+LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
+(Font)              scaled to size 17.27994pt on input line 448.
 
-\openout5 = `main.mw'.
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
 
-
-
-LaTeX Warning: Citation `sekulic2024reliable' on page 70 undefined on input lin
-e 293.
-
-
-LaTeX Warning: Citation `sekulic2024reliable' on page 70 undefined on input lin
-e 317.
-
-
-LaTeX Warning: Citation `xu2024beyond' on page 70 undefined on input line 321.
-
-
-Overfull \vbox (10.17589pt too high) has occurred while \output is active []
-
+LaTeX Warning: Citation `li2015diversity' on page 70 undefined on input line 46
+8.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5193,9 +5239,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
 
 
-LaTeX Warning: Citation `es2023ragas' on page 71 undefined on input line 357.
+
+LaTeX Warning: Citation `sekulic2024reliable' on page 71 undefined on input lin
+e 493.
+
+
+LaTeX Warning: Citation `sekulic2024reliable' on page 71 undefined on input lin
+e 517.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5219,9 +5274,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--382
-[][]
- []
+
+LaTeX Warning: Citation `xu2024beyond' on page 72 undefined on input line 521.
+
+
+LaTeX Warning: Citation `es2023ragas' on page 72 undefined on input line 557.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5244,28 +5301,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-
-
-LaTeX Warning: Citation `na2024scalable' on page 73 undefined on input line 403
-.
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-File: ./img/fundation.png Graphic file (type bmp)
-<./img/fundation.png>
-
-Overfull \hbox (5.06694pt too wide) in paragraph at lines 424--425
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 آزمایش‌های فرعی جهت ارزیابی قسمت‌های مختلف دخ
-یل در فرآیند نماگر‌سازی کاربر به شرح زیر دسته‌بندی[]
+Underfull \hbox (badness 10000) in paragraph at lines 579--582
+[][]
  []
-
-
-Overfull \vbox (1.27164pt too high) has occurred while \output is active []
-
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5282,6 +5321,54 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 [73] (main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+
+LaTeX Warning: Citation `na2024scalable' on page 74 undefined on input line 603
+.
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+File: ./img/fundation.png Graphic file (type bmp)
+<./img/fundation.png>
+
+Overfull \hbox (5.06694pt too wide) in paragraph at lines 624--625
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 آزمایش‌های فرعی جهت ارزیابی قسمت‌های مختلف دخ
+یل در فرآیند نماگر‌سازی کاربر به شرح زیر دسته‌بندی[]
+ []
+
+
+Overfull \vbox (6.88602pt too high) has occurred while \output is active []
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.86447pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.86447pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.86447pt}.
+
+\openout5 = `main.mw'.
+
+[74] (main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
  (tex/sensitivity-analysis-table.tex
@@ -5318,41 +5405,9 @@ Overfull \hbox (1.43536pt too wide) in alignment at lines 73--73
  []
 
 )
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.86447pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.86447pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.86447pt}.
-
-\openout5 = `main.mw'.
-
-[74] (main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
 Missing character: There is no ​ in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no ​ in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE_Bold.ttf]/OT:langu
-age=dflt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5379,22 +5434,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-File: ./img/evaluationMetrics.png Graphic file (type bmp)
-<./img/evaluationMetrics.png>
-
-LaTeX Warning: Citation `madotto2021few' on page 76 undefined on input line 525
-.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5426,23 +5465,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
+Missing character: There is no   in font [./font/IRLotusICEE_Bold.ttf]/OT:langu
+age=dflt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+File: ./img/evaluationMetrics.png Graphic file (type bmp)
+<./img/evaluationMetrics.png>
 
-LaTeX Warning: Citation `kasahara2022building' on page 77 undefined on input li
-ne 538.
-
-
-LaTeX Warning: Citation `kasahara2022building' on page 77 undefined on input li
-ne 544.
-
-
-Overfull \hbox (7.88417pt too wide) in paragraph at lines 543--550
-[][]\TU/IRLotusICEE.ttf(1)/b/n/12 ۰\TU/IRLotusICEE.ttf(0)/m/n/12 .‏\TU/IRLotusI
-CEE.ttf(1)/b/n/12 ۵۹۵[]  \TU/IRLotusICEE.ttf(0)/m/n/12 است. این نشان می‌دهد که 
-مدل این مقاله نسبت به تعداد کل بای گرام‌ها، بای گرام‌های منحصربه‌فرد[]
- []
-
-
-LaTeX Warning: Citation `hu2024dialight' on page 77 undefined on input line 562
+LaTeX Warning: Citation `madotto2021few' on page 77 undefined on input line 725
 .
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5462,20 +5496,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [77] (main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
+\openout5 = `main.mw'.
 
-LaTeX Warning: Citation `elangovan2024considers' on page 78 undefined on input 
-line 581.
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+
+LaTeX Warning: Citation `kasahara2022building' on page 78 undefined on input li
+ne 738.
+
+
+LaTeX Warning: Citation `kasahara2022building' on page 78 undefined on input li
+ne 744.
+
+
+Overfull \hbox (7.88417pt too wide) in paragraph at lines 743--750
+[][]\TU/IRLotusICEE.ttf(1)/b/n/12 ۰\TU/IRLotusICEE.ttf(0)/m/n/12 .‏\TU/IRLotusI
+CEE.ttf(1)/b/n/12 ۵۹۵[]  \TU/IRLotusICEE.ttf(0)/m/n/12 است. این نشان می‌دهد که 
+مدل این مقاله نسبت به تعداد کل بای گرام‌ها، بای گرام‌های منحصربه‌فرد[]
+ []
+
+
+LaTeX Warning: Citation `hu2024dialight' on page 78 undefined on input line 762
+.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5494,13 +5549,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [78] (main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+LaTeX Warning: Citation `elangovan2024considers' on page 79 undefined on input 
+line 781.
+
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5522,8 +5585,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-File: ./img/prototype.jpg Graphic file (type bmp)
-<./img/prototype.jpg>
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -5540,6 +5601,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 [80] (main.mw)
+\openout5 = `main.mw'.
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+File: ./img/prototype.jpg Graphic file (type bmp)
+<./img/prototype.jpg>
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.86447pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.86447pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.86447pt}.
+
+\openout5 = `main.mw'.
+
+[81] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5561,7 +5644,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[81] (main.mw)
+[82] (main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 
@@ -5579,7 +5666,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[82] (main.mw)
+[83] (main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `./tex/chapter5.aux'.
@@ -5592,7 +5679,7 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 \openout5 = `main.mw'.
 
-[83
+[84
 
 
 
@@ -5633,7 +5720,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[84] (main.mw)
+[85] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5650,7 +5737,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-LaTeX Warning: Citation `camilleri2024artificial' on page 85 undefined on input
+LaTeX Warning: Citation `camilleri2024artificial' on page 86 undefined on input
  line 71.
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5669,7 +5756,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[85] (main.mw)
+[86] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5705,7 +5792,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[86] (main.mw)
+[87] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5735,7 +5822,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[87] (main.mw)
+[88] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5775,7 +5862,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[88] (main.mw)
+[89] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5830,7 +5917,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[89] (main.mw)
+[90] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5870,7 +5957,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[90] (main.mw)
+[91] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5908,7 +5995,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[91] (main.mw)
+[92] (main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5949,34 +6036,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[92] (main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.00562pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.00562pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-3.00562pt}.
-
-\openout5 = `main.mw'.
-
 [93] (main.mw)
 \openout5 = `main.mw'.
 
@@ -5988,15 +6047,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-Overfull \hbox (2.57558pt too wide) in paragraph at lines 321--322
-[][]\TU/IRLotusICEE.ttf(0)/m/n/12 برای کاربرانی که تازه با سیتسم شروع با کار می
-‌کنند، داده‌های تاریخی محدود است و می‌بایست توصیه‌های[]
- []
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
@@ -6029,7 +6079,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-)
+
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -6047,10 +6097,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 [95] (main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -6081,29 +6127,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [96] (main.mw)
 \openout5 = `main.mw'.
 
- (main.bbl
-LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 7.
-LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/it' will be
+\openout5 = `main.mw'.
 
-(Font)              scaled to size 10.95pt on input line 13.
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 )
-\openout5 = `main.mw'.
-
- [1
-
-
-
-
-] (main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-No file main.bls.
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -6120,7 +6160,259 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[2
+[97] (main.mw)
+\openout5 = `main.mw'.
+
+ (main.bbl
+LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 7.
+LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/it' will be
+
+(Font)              scaled to size 10.95pt on input line 13.
+)
+\openout5 = `main.mw'.
+
+ [98
+
+
+
+
+] (main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout2 = `./tex/appendix1.aux'.
+
+ (tex/appendix1.tex
+پیوست آ.
+\openout5 = `main.mw'.
+
+[99
+
+
+] (main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[100] (main.mw)
+\openout5 = `main.mw'.
+
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[101] (main.mw)
+\openout5 = `main.mw'.
+
+
+Overfull \hbox (37.19598pt too wide) in paragraph at lines 111--113
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”’movie’ was such a hit for me. For more genr
+e goodness، I’d recommend ’similar_movie’—[]
+ []
+
+
+Overfull \hbox (9.92891pt too wide) in paragraph at lines 117--119
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Great choice mentioning ’movie’. If you’re c
+raving more genre ، give ’similar_movie’[]
+ []
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[102] (main.mw)
+\openout5 = `main.mw'.
+
+
+Overfull \hbox (12.25623pt too wide) in paragraph at lines 133--135
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Love when people mention ’movie’. If you’re 
+hungry for more genre ، ’similar_movie’[]
+ []
+
+
+Overfull \hbox (3.53047pt too wide) in paragraph at lines 135--137
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Totally agree about ’movie’. For another gen
+re powerhouse، go for ’similar_movie’.[]
+ []
+
+
+Overfull \hbox (14.74529pt too wide) in paragraph at lines 149--151
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Can’t stop thinking about ’movie’. If you ne
+ed more genre inspiration، ’similar_movie’[]
+ []
+
+
+Overfull \hbox (17.86014pt too wide) in paragraph at lines 151--153
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Absolutely love ’movie’. If you’re searching
+ for more genre brilliance، ’similar_movie’[]
+ []
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[103] (main.mw)
+\openout5 = `main.mw'.
+
+
+Overfull \hbox (5.35718pt too wide) in paragraph at lines 159--161
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Honestly، ’movie’ never gets old. If you’re 
+jonesing for more genre ، ’similar_movie’[]
+ []
+
+
+Overfull \hbox (4.5584pt too wide) in paragraph at lines 161--163
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”The genre charm of ’movie’ is unbeatable. ’s
+imilar_movie’ captures that same magic[]
+ []
+
+
+Overfull \hbox (7.78214pt too wide) in paragraph at lines 169--171
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Every time I watch ’movie’، I’m hooked. For 
+more genre excellence، ’similar_movie’[]
+ []
+
+
+Overfull \hbox (3.69357pt too wide) in paragraph at lines 173--175
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”The genre nostalgia from ’movie’ hits differ
+ently. ’similar_movie’ brings back those[]
+ []
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[104] (main.mw)
+\openout5 = `main.mw'.
+
+
+Overfull \hbox (0.76857pt too wide) in paragraph at lines 181--183
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”There’s nothing like ’movie’ for genre lover
+s. Add ’similar_movie’ to your queue—[]
+ []
+
+
+Overfull \hbox (5.92108pt too wide) in paragraph at lines 201--203
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ”Can’t say enough good things about ’movie’. 
+For another genre ride، ’similar_movie’[]
+ []
+
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[105] (main.mw)
+\openout5 = `main.mw'.
+
+)
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[106] (main.mw)
+\openout5 = `main.mw'.
+
+
+No file main.bls.
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
+
+\openout5 = `main.mw'.
+
+[1
+
+
 
 
 
@@ -6134,19 +6426,17 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
-flt;script=arab;mapping=persian-tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.00562pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.00562pt}.
+(fancyhdr)                Make it at least 14.5297pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.5297pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-3.00562pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.5297pt}.
 
 \openout5 = `main.mw'.
 
-[3
+[2
 
 
 ] (main.mw)
@@ -6156,7 +6446,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 No file main.ind.
 \openout5 = `main.mw'.
 
-[4
+[3
 
 
 
@@ -6425,8 +6715,20 @@ enddocument/afterlastpage: lastpage setting LastPage.
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 )
 (tex/chapter4.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -6733,7 +7035,20 @@ enddocument/afterlastpage: lastpage setting LastPage.
 
 \openout5 = `main.mw'.
 
-)
+ (tex/appendix1.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -6748,7 +7063,7 @@ LaTeX Warning: There were undefined references.
 \openout5 = `main.out'.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 49F4F7E255DFE618AD8233BF5E3B82A6;25321.
+(rerunfilecheck)             Checksum: 8F6E1CA1487DBDEB9A6D341E1A734CA5;26140.
 \openout5 = `main.glo'.
 
 \openout5 = `main.acn'.
@@ -6766,12 +7081,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  )
 (\end occurred when \ifx on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 42544 strings out of 409617
- 796493 string characters out of 5772795
+ 42667 strings out of 409617
+ 798320 string characters out of 5772795
  1967191 words of memory out of 5000000
- 62027 multiletter control sequences out of 15000+600000
+ 62062 multiletter control sequences out of 15000+600000
  567156 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,16n,136p,2348b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (114 pages).
+Output written on main.pdf (124 pages).

@@ -1,154 +1,207 @@
 % !TeX root=../main.tex
 
-\chapter{آشنایی سریع با برخی دستورات لاتک}
-\label{app:latexIntro}
-%\thispagestyle{empty}
-در این فصل ویژگی‌های مهم و پرکاربرد زی‌پرشین و لاتک معرفی می‌شود. برای راهنمایی بیشتر و به‌کاربردن ویژگی‌های پیشرفته‌تر به راهنمای زی‌پرشین و راهنمای لاتک مراجعه کنید. برای آگاهی از دستورات لاتک که این خروجی را تولید کرده‌اند فایل \lr{appendix1.tex} را ملاحظه فرمایید.
-\footnote{بیشتر مطالب این بخش از مثال 
-\lr{xepersian\_example.tex}
-گرفته شده‌اند که توسط آقای امیرمسعود پورموسی آماده شده است.}
+\chapter{مجوعه پرامپتهای ساخت مجموعه داده}
+\label{app:naturalDiscussionTemplate}
 
-\section{بندها و زیرنویس‌ها}
-هر جایی از نوشتهٔ خود، اگر می‌خواهید به سر سطر بروید و یک بند (پاراگراف) تازه را آغاز کنید، باید یک خط را خالی بگذارید%
-\footnote{یعنی دوبار باید کلید \lr{Enter} را بزنید.}
- مانند این:
-
-حالا که یک بند تازه آغاز شده است، یک زیرنویس انگلیسی%
-\LTRfootnote{English Footnote!}
- هم می‌نویسیم!
-\section{فرمول‌های ریاضی}
-\label{formula}
-
-اینجا هم یک فرمول می‌آوریم که شماره دارد:
-\begin{equation}\label{eq:yek}
-A=\frac{c}{d}+\frac{q^2}{\sin(\omega t)+\Omega_{12}}
-\end{equation}
-در لاتک می‌توان به کمک فرمان 
-\lr{\textbackslash label\{\}}
-به هر فرمول یک نام نسبت داد. در فرمول بالا نام \lr{eq:yek} را برایش گذاشته‌ایم (پروندهٔ \lr{tex} همراه با این مثال را ببینید). این نام ما را قادر می‌کند که بعداً بتوانیم با فرمان
-\lr{\textbackslash ref\{eq:yek\}}
-به آن فرمول با شماره ارجاع دهیم. یعنی بنویسیم فرمول \ref{eq:yek}. 
-لاتک خودش شمارهٔ این فرمول‌ها را مدیریت می‌کند.\footnote{یعنی اگر بعداً فرمولی قبل از این فرمول بنویسیم، خودبه‌خود شمارهٔ این فرمول و شمارهٔ ارجاع‌ها به این فرمول یکی زیاد می‌شود. دیگر نگران شماره‌گذاری فرمول‌های خود نباشید!} این هم یک فرمول که شماره ندارد:
-$$A=|\vec{a}\times \vec{b}| + \sum_{n=0}^\infty C_{ij}$$
-
-این هم عبارتی ریاضی مانند 
-$\sqrt{a^2+b^2}$
- که بین متن می‌آید.
-\subsection{یک زیربخش}
-\label{zirbakhsh}
-
-این زیربخش \ref{zirbakhsh} است؛ یعنی یک بخش درون بخش \ref{formula} است.
-\subsubsection{یک زیرزیربخش}
-این هم یک زیرزیربخش است. در لاتک می‌توانید بخش‌های تودرتو در نوشته‌تان تعریف کنید تا ساختار منطقی نوشته را به خوبی نشان دهید. می‌توانید به این بخش‌ها هم با شماره ارجاع دهید، مثلاً بخش فرمول‌های ریاضی شماره‌اش \ref{formula} است.
-\section{نوشته‌های فارسی و انگلیسی مخلوط}
-نوشتن یک کلمهٔ انگلیسی بین متن فارسی بدیهی است، مانند Example در این جمله.\footnote{هرچند بهتر است باز هم آن کلمه را مانند \lr{Example} در این جمله بنویسید.}
-نوشتن یک عبارت چندکلمه‌ای مانند
- \lr{More than one word} کمی پیچیده‌تر است.
-
-اگر ناگهان تصمیم بگیرید که یک بند کاملاً انگلیسی را بنویسید، باید:
-\begin{latin}
-This is an English paragraph from left to right. You can write as much as you want in it.
-\end{latin}
-\section{افزودن تصویر به نوشته}
-پروندهٔ تصویر دلخواه خود را در کنار پروندهٔ \lr{tex} قرار دهید. سپس به روش زیر تصویر را در نوشتهٔ خود بیاورید:
-\begin{latin}
-\begin{verbatim}
-\includegraphics{YourImageFileName}
-\end{verbatim}
-\end{latin}
-به تصویرها هم مانند فرمول‌ها و بخش‌ها می‌توان با شماره ارجاع داد. مثلاً تصویر \ref{fig:shir} یک شیر علاقه‌مند به لاتک را در حال دویدن نشان می‌دهد. برای جزئیات بیشتر دربارهٔ روش گذاشتن تصویرها در نوشته باید راهنماهای لاتک را بخوانید.
-\begin{figure}[ht]
-\centerline{\includegraphics[width=5cm]{lion}}
-\caption{در این تصویر یک شیر علاقه‌مند به لاتک را در حال دویدن می‌بینید.}
-\label{fig:shir}
-\end{figure}
-
-به تصویرها هم مانند فرمول‌ها و بخش‌ها می‌توان با شماره ارجاع داد. مثلاً تصویر بالا شماره‌اش \ref{fig:shir} است. برای جزئیات بیشتر دربارهٔ روش گذاشتن تصویرها در نوشته باید راهنماهای لاتک را بخوانید.
-
-\section{محیط‌های شمارش و نکات}
-برای فهرست‌کردن چندمورد، اگر ترتیب برایمان مهم نباشد:
-\begin{itemize}
-\item مورد یکم
-\item مورد دوم
-\item مورد سوم
-\end{itemize}
-و اگر ترتیب برایمان مهم باشد:
-\begin{enumerate}
-\item مورد یکم
-\item مورد دوم
-\item مورد سوم
-\end{enumerate}
-می‌توان موردهای تودرتو داشت:
-\begin{enumerate}
-\item مورد ۱
-\item مورد ۲
-\begin{enumerate}
-\item مورد ۱ از ۲
-\item مورد ۲ از ۲
-\item مورد ۳ از ۲
-\end{enumerate}
-\item مورد ۳
-\end{enumerate}
-شماره‌گذاری این موردها را هم لاتک انجام می‌دهد.
-
-\section{تعریف و قضیه}
-برای ذکر تعریف، قضیه و مثال مثالهای ذیل را ببینید.
-\begin{definition}
-مجموعه همه ارزیابی‌های  (پیوسته)  روی $(X,\tau)$، دامنه توانی احتمالی
-\index{دامنه توانی احتمالی}
-$ X $
-نامیده می‌شود.
-\end{definition}
-\begin{theorem}[باناخ-آلااغلو]
-\index{قضیه باناخ-آلااغلو}
-اگر $ V $ یک همسایگی $ 0 $ در فضای برداری 
-\index{فضای!برداری}
- توپولوژیکی $ X $ باشد و 
-\begin{equation}\label{eq1}
-K=\left\lbrace \Lambda \in X^{*}:|\Lambda x|\leqslant 1 ; \ \forall x\in V\right\rbrace,
-\end{equation}
-آنگاه $ K $،  ضعیف*-فشرده است که در آن، $ X^{*} $ دوگان
-\index{فضای!دوگان}
- فضای برداری توپولوژیکی $ X $ است به ‌طوری که عناصر آن،  تابعی‌های 
-خطی پیوسته
-\index{تابعی خطی پیوسته}
- روی $X$ هستند.
-\end{theorem}
-تساوی \eqref{eq1} یکی از مهم‌ترین تساوی‌ها در آنالیز تابعی است که در ادامه، به وفور از آن استفاده می‌شود.
-\begin{example}
-برای هر فضای مرتب، گردایه 
-$$U:=\left\lbrace U\in O: U=\uparrow U\right\rbrace $$
-از مجموعه‌های بالایی باز، یک توپولوژی تعریف می‌کند که از توپولوژی اصلی، درشت‌تر  است.
-\end{example}
-حال تساوی 
-\begin{equation}\label{eq2}
-\sum_{n=1}^{+\infty} 3^{n}x+7x=\int_{1}^{n}8nx+\exp{(2nx)}
-\end{equation}
-را در نظر بگیرید. با مقایسه تساوی \eqref{eq2} با تساوی \eqref{eq1} می‌توان نتیجه گرفت که ...
+\thispagestyle{empty}
 
 
-\section{چگونگی نوشتن و ارجاع به مراجع}
-\label{Sec:Ref}
 
+لیستی ۱۰۰ الگوی پیش‌فرض برای ایجاد تعاملات طبیعی و سازنده بین کاربران و سیستم  به شرح زیر است.
 
-در لاتک به راحتی می‌توان مراجع خود را نوشت و به آنها ارجاع داد. به عنوان مثال برای معرفی کتاب گنزالس \cite{Gonzalez02book} به عنوان یک مرجع می‌توان آنرا به صورت زیر معرفی نمود:
+در ادامه 50 قالب مختلف برای پرسش آورده شده است.
 
-\singlespacing
 \begin{LTR}
-\begin{verbatim}
-\bibitem{Gonzalez02book}
-Gonzalez, R.C., and Woods, R.E. {\em Digital Image Processing}, 3rd ed..
-Prentice-Hall, Inc., Upper Saddle River, NJ, USA, 2006.
-\end{verbatim}
+\begin{itemize}
+\item    
+"Hey, I loved '{movie}'. Any other {genere} films?",
+\item
+"Looking for movies like '{movie}' in the {genere} genre?",
+\item
+"Have you checked out anything like '{movie}' before? Maybe in the {genere} category?",
+\item
+"In the mood for {genere} movies similar to '{movie}'?",
+\item
+"What's your take on {genere} films akin to '{movie}'?",
+\item
+"Any movies in {genere} genre similar to '{movie}' that you recommend?",
+\item
+"Seen anything like '{movie}' recently? Perhaps in the {genere} category?",
+\item
+"Want recommendations for {genere} movies like '{movie}'?",
+\item
+"Searching for {genere} movies reminiscent of '{movie}'?",
+\item
+"What do you think about exploring {genere} films akin to '{movie}'?",
+\item
+"Have you seen '{movie}'? Any other {genere} movies to recommend?",
+\item
+"Looking for {genere} movies similar to '{movie}'? Let me know your favorites so far.",
+\item
+"Any {genere} films comparable to '{movie}' that you enjoyed recently?",
+\item
+"On the hunt for {genere} movies simillar to '{movie}'? Share your top picks.",
+\item
+"Recommendations for {genere} movies like '{movie}' would be great right now.",
+\item
+"Intrigued by '{movie}' lately? Discover more {genere} films with a similar feel.",
+\item
+"Excited to watch more {genere} movies like '{movie}'? Let's compile a watchlist.",
+\item
+"How about a movie night exploring '{movie}' and other {genere} films?",
+\item
+"Up for a discussion on hidden {genere} like '{movie}'?",
+\item
+"Curious about what makes '{movie}' special in the {genere} genre? Any Recommendation.",
+\item
+"Found any {genere} genre films like '{movie}' that left a lasting impression?",
+\item
+"Delving into the world of '{movie}' and {genere} movies. Got any favorites?",
+\item
+"Discovering movies similar to '{movie}' in the {genere} category is always a treat. Any suggestions?",
+\item
+"In the mood for {genere} films akin to '{movie}' tonight? Let's narrow down your options.",
+\item
+"Looking to broaden your movie horizon beyond '{movie}'? How about more {genere} films?",
+\item
+"Ready to expand your movie collection with {genere} movies like '{movie}'?",
+\item
+"What themes in '{movie}' resonate with you? Perhaps more {genere} genre films to explore.",
+\item
+"Planning your next movie marathon? Add some {genere} gems similar to '{movie}'.",
+\item
+"Enjoyed watching '{movie}'? Explore the {genere} genre for more hidden treasures.",
+\item
+"Can't get enough of {genere} films like '{movie}' after watching? Let's find more.",
+\item
+"Which {genere} movies have impressed you lately, following '{movie}'?",
+\item
+"Step into the world of '{movie}' and other {genere} films for a cinematic journey.",
+\item
+"On the lookout for {genere} movies with a similar impact to '{movie}'? Share your picks.",
+\item
+"Have a go at {genere} movies like '{movie}'. Found any standouts recently?",
+\item
+"Seeking out {genere} genre recommendations post-watching '{movie}'? Let's dive in.",
+\item
+"Fascinated by the storytelling in '{movie}' and {genere} movies. Any favorites to recommend?",
+\item
+"Looking to explore new {genere} films akin to '{movie}'? Count me in for recommendations.",
+\item
+"Ready to uncover more gems in the {genere} genre like '{movie}'? Let's build your watchlist.",
+\item
+"Inspired by the style of '{movie}' in the {genere} category? Discover more must-watch films.",
+\item
+"Any standout moments from '{movie}' or other {genere} films you'd like to explore further?",
+\end{itemize}
 \end{LTR}
-\doublespacing
 
-در دستورات فوق \lr{Gonzalez02book}  برچسبی است که به این مرجع داده شده است و با استفاده از دستور 
-\verb!\cite{Gonzalez02book}!
-می‌توان به آن ارجاع داد؛ بدون این که شماره‌اش را در فهرست مراجع‌مان بدانیم.
 
-اگر این اولین مرجع ما باشد در قسمت مراجع به صورت زیر خواهد آمد:\\
-\includegraphics[width=\textwidth]{gonzalez.png}
+همچنین در ادامه 50 قالب برای پاسخ آورده شده است.
 
-این شیوهٔ تعریف مراجع بسیار ابتدایی است و اگر فرمت مراجع، ترتیب یا تعداد آنها را خواسته باشید تغییر دهید، به عنوان مثال ابتدا حرف اول نام نویسنده بیاید و سپس نام خانوادگی، باید همه کارها را به صورت دستی انجام دهید!
-چون در یک \پ یا مقاله باید کنترل کاملی بر مراجع خود داشته باشید و به راحتی بتوانید قالب مراجع را عوض کنید، بنابراین می‌بایست از \lr{Bib\TeX} استفاده کنید که درپیوست  \ref{app:refMan} به  آن پرداخته خواهد شد.
+\begin{LTR}
+\begin{itemize}
+\item
+"Oh, you're into {genre} ? '{movie}' is a great pick! Have you seen '{similar\_movie}'? It's got a similar vibe but with some unexpected twists."
+\item
+"If you liked '{movie}', then you’ll probably enjoy '{similar\_movie}'. Both are solid {genre} films with killer soundtracks!"
+\item
+"Ah, {genre} movies like '{movie}' are my jam. If you want something lighter, check out '{similar\_movie}'."
+\item
+"'{movie}' was such a hit for me. For more {genre} goodness, I’d recommend '{similar\_movie}'—it’s underrated but amazing."
+\item
+"You’re spot-on about '{movie}' being an awesome {genre} film. Try '{similar\_movie}' next—it’s got the same emotional depth."
+\item
+"I’m obsessed with '{movie}'. Another {genre} flick that hits hard is '{similar\_movie}'. You won’t regret watching it!"
+\item
+"Great choice mentioning '{movie}'. If you’re craving more {genre} , give '{similar\_movie}' a shot. The visuals alone are worth it."
+\item
+"Yeah, '{movie}' nails the whole {genre} aesthetic. If you haven’t already, watch '{similar\_movie}'. It’s just as gripping."
+\item
+"Wow, we think alike! After '{movie}', I binged '{similar\_movie}'. Perfect for fans of {genre} stories."
+\item
+"Love how '{movie}' blends action and emotion. For another {genre} gem, try '{similar\_movie}'. Trust me, it’s binge-worthy."
+\item
+"If you’re digging {genre} stuff like '{movie}', you’ve gotta check out '{similar\_movie}'. It’s quirky but super relatable."
+\item
+"'{movie}' is iconic. If you’re looking for more {genre} vibes, '{similar\_movie}' will definitely scratch that itch."
+\item
+"Man, '{movie}' is timeless. If you’re up for another {genre} adventure, '{similar\_movie}' might be your new favorite."
+\item
+"For sure, '{movie}' is one of the best {genre} films ever. Pair it with '{similar\_movie}' for double the fun."
+\item
+"Love when people mention '{movie}'. If you’re hungry for more {genre} , '{similar\_movie}' delivers big time."
+\item
+"Totally agree about '{movie}'. For another {genre} powerhouse, go for '{similar\_movie}'. Same energy, different story."
+\item
+"I could rewatch '{movie}' a hundred times. For more {genre} magic, '{similar\_movie}' is where it’s at."
+\item
+"You picked a classic with '{movie}'. To keep the {genre} train rolling, add '{similar\_movie}' to your list."
+\item
+"Such a good call on '{movie}'. If you want more {genre} feels, '{similar\_movie}' is a must-watch."
+\item
+"I can’t get enough of '{movie}'. Another {genre} masterpiece is '{similar\_movie}'. Prepare to be blown away."
+\item
+"If '{movie}' spoke to you, '{similar\_movie}' will too. Both are {genre} classics with heartwarming moments."
+\item
+"Dude '{movie}' is perfection. For another dose of {genre} , '{similar\_movie}' is pure gold."
+\item
+"Can’t stop thinking about '{movie}'. If you need more {genre} inspiration, '{similar\_movie}' is a no-brainer."
+\item
+"Absolutely love '{movie}'. If you’re searching for more {genre} brilliance, '{similar\_movie}' is the answer."
+\item
+"That {genre} feeling from '{movie}' is unmatched. '{similar\_movie}' gives off the same cozy yet thrilling energy."
+\item
+"If you adore '{movie}', don’t sleep on '{similar\_movie}'. It’s another {genre} treasure waiting to be discovered."
+\item
+"So glad you brought up '{movie}'. For more {genre} awesomeness, '{similar\_movie}' is a game-changer."
+\item
+"Honestly, '{movie}' never gets old. If you’re jonesing for more {genre} , '{similar\_movie}' is a slam dunk."
+\item
+"The {genre} charm of '{movie}' is unbeatable. '{similar\_movie}' captures that same magic perfectly."
+\item
+"Yes, yes, YES to '{movie}'. For another {genre} knockout, '{similar\_movie}' is a guaranteed win."
+\item
+"Watching '{movie}' felt like therapy. For more {genre} comfort, '{similar\_movie}' is exactly what you need."
+\item
+"Who doesn’t love '{movie}'? If you’re hunting for more {genre} gems, '{similar\_movie}' is highly recommended."
+\item
+"Every time I watch '{movie}', I’m hooked. For more {genre} excellence, '{similar\_movie}' is a safe bet."
+\item
+"Definitely agree about '{movie}'. If you’re all about {genre} , '{similar\_movie}' should be next on your list."
+\item
+"The {genre} nostalgia from '{movie}' hits differently. '{similar\_movie}' brings back those same vibes effortlessly."
+\item
+"If '{movie}' made you smile, '{similar\_movie}' will too. Both are perfect {genre} escapes."
+\item
+"Couldn’t agree more about '{movie}'. For another {genre} standout, '{similar\_movie}' is a hidden gem."
+\item
+"Loving '{movie}' means you’ll probably adore '{similar\_movie}'. Both are top-tier {genre} picks."
+\item
+"There’s nothing like '{movie}' for {genre} lovers. Add '{similar\_movie}' to your queue—it’s equally captivating."
+\item
+"Big fan of '{movie}'. For more {genre} excitement, '{similar\_movie}' is a must-see."
+\item
+"The way '{movie}' balances humor and drama is genius. '{similar\_movie}' does the same for {genre} enthusiasts."
+\item
+"If '{movie}' resonated with you, '{similar\_movie}' will too. Both capture the essence of {genre} beautifully."
+\item
+"You nailed it with '{movie}'. For more {genre} brilliance, '{similar\_movie}' is a fantastic follow-up."
+\item
+"Absolutely crushing on '{movie}'. If you’re still vibing with {genre} , '{similar\_movie}' is a total winner."
+\item
+"The {genre} themes in '{movie}' are unforgettable. '{similar\_movie}' explores similar ideas in a fresh way."
+\item
+"I’m always recommending '{movie}'. For more {genre} greatness, '{similar\_movie}' is a certified banger."
+\item
+"There’s so much to love about '{movie}'. If you’re chasing more {genre} thrills, '{similar\_movie}' won’t disappoint."
+\item
+"'{movie}' is hands down one of the best {genre} films. '{similar\_movie}' holds its own alongside it."
+\item
+"Can’t say enough good things about '{movie}'. For another {genre} ride, '{similar\_movie}' is a stellar option."
+\item
+"You’re speaking my language with '{movie}'. If you’re ready for more {genre} , '{similar\_movie}' is calling your name."
+\end{itemize}
+
+\end{LTR}
+
