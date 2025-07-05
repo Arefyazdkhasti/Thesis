@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.9.14)  4 JUL 2025 15:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.9.14)  4 JUL 2025 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3137,6 +3137,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
+Overfull \hbox (1.2092pt too wide) in paragraph at lines 151--152
+[][]\TU/IRLotusICEE.ttf(0)/m/n/12 ماژول نماگر و شخصی‌سازی : این ماژول بر اساس د
+اده‌های نماگر کاربر و فیلترهای پویا، پاسخ‌های[]
+ []
+
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -4535,10 +4540,6 @@ flt;script=arab;mapping=persian-tex-text;!
 
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
-
-LaTeX Warning: Reference `naturalDiscussionTemplate' on page 44 undefined on in
-put line 35.
-
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -5165,10 +5166,6 @@ Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
-
-LaTeX Warning: Reference `naturalDiscussionTemplate' on page 66 undefined on in
-put line 249.
-
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
 Missing character: There is no   in font [./font/IRLotusICEE.ttf]/OT:language=d
@@ -7159,13 +7156,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 \openout5 = `main.out'.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 47407BFEE1DF2A6A4EE57FC60306F3E0;25778.
+(rerunfilecheck)             Checksum: 892431031FF0BCDBF01BCFF6AFC4C053;25762.
 \openout5 = `main.glo'.
 
 \openout5 = `main.acn'.
@@ -7183,10 +7177,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  )
 (\end occurred when \ifx on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 42667 strings out of 409617
- 798361 string characters out of 5772795
+ 42666 strings out of 409617
+ 798334 string characters out of 5772795
  1967191 words of memory out of 5000000
- 62064 multiletter control sequences out of 15000+600000
+ 62063 multiletter control sequences out of 15000+600000
  567156 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,16n,136p,2348b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s

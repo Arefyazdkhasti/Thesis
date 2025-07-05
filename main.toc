@@ -118,4 +118,4 @@
 \contentsline {subsection}{\numberline {5.7.8}شخصی سازی پاسخ پویا}{98}{subsection.5.7.8}%
 \contentsline {chapter}{مراجع}{100}{chapter*.16}%
  \renewcommand \cftchappresnum {پیوست~}\setlength {\cftchapnumwidth }{\mylenapp }
-\contentsline {chapter}{\numberline {آ}مجوعه پرامپتهای ساخت مجموعه داده}{101}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {آ}مجوعه الگوهای ساخت مجموعه داده}{101}{appendix.Alph1}%
